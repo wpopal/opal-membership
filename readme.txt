@@ -1,10 +1,10 @@
-=== Plugin Name ===
+=== Opal Membership ===
 Contributors: wpopal
 Donate link: http://www.wpopal.com/
 Tags:  community, member, opalestate_addon, profile, ecommerce, subscription, membership, user
 Requires at least: 4.6
 Tested up to: 5.2.2
-Stable tag: 1.0
+Stable tag: 1.1.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -92,5 +92,3 @@ This section describes how to install the plugin and get it working.
 * Images and refer links
 * Easy for user to follow up
 * System tickets support 24/7 available : [free support](https://wpopal.ticksy.com/ "Visit the Plugin support Page")
-
-== Upgrade Notice == 
