@@ -1,0 +1,86 @@
+.opalmembership-box {
+  margin-bottom: 30px;
+}
+
+.list-group {
+  padding: 0;
+}
+.list-group li {
+  list-style: none;
+}
+.list-group li span {
+  display: inline-block;
+}
+.list-group li span:first-child {
+  width: 150px;
+}
+.list-group li span:last-child {
+  font-weight: 700;
+}
+
+.table-bordered thead {
+  background-color: #000;
+  color: #fff;
+}
+
+.alert {
+  width: 100%;
+  padding: 30px 15px;
+  color: #FFF;
+  margin-bottom: 30px;
+}
+.alert.alert-danger {
+  background: #f55753;
+}
+
+.opalmembership-pagination {
+  text-align: center;
+}
+.opalmembership-pagination li a {
+  padding: 12px;
+  background-color: #f3f3f3;
+}
+.opalmembership-pagination li.active a {
+  background: #02ce76;
+  color: #FFF;
+}
+
+.payment-detail {
+  padding: 100px 40px;
+}
+
+.opalmembership-status span {
+  color: #FFF;
+  padding: 2px 10px;
+  border: 10%;
+}
+
+.label-opal-completed {
+  background-color: #1dbb99;
+  color: #FFF;
+}
+
+.label-opal-pending {
+  background-color: #37b0e9;
+}
+
+.label-opal-on-hold {
+  background-color: #1dbb99;
+}
+
+.label-opal-failed {
+  background-color: #1dbb99;
+}
+
+.label-opal-cancelled {
+  background-color: #1dbb99;
+}
+
+.lable-opal-refunded {
+  background-color: #f35958;
+}
+
+.label-opal-processing {
+  background-color: #e8d30c;
+  color: #000 !important;
+}

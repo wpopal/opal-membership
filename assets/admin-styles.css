@@ -1,0 +1,15 @@
+.panel-payment-data {
+	clear:both;
+	display: table;
+	width: 100%
+}
+.panel-payment-data .membership-payment-info {
+	float:left;
+	width: 40%;
+}
+
+.panel-payment-data .membership-payment-address {
+	float:left;
+	width: 60%;
+}
+

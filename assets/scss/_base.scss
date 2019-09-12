@@ -1,0 +1,52 @@
+.opalmembership-box {
+	 margin-bottom:30px;
+}
+
+.list-group {
+	padding:0;
+	li {
+		list-style:none;
+		span {
+			display:inline-block;
+		}
+		span:first-child {
+			width:150px;
+		}
+		span:last-child {
+			font-weight:700;
+ 
+		}
+	}
+}
+
+.table-bordered {
+	thead {
+		background-color:#000;
+		color:#fff;
+	}
+}
+
+// 
+.alert {
+	width:100%;
+	padding:30px 15px;
+	&.alert-danger {
+		background:#f55753;
+	} 
+	color:#FFF;
+	margin-bottom:30px;
+}
+
+.opalmembership-pagination {
+	text-align:center;
+	li {
+		a{ 
+			padding:12px;
+			background-color:#f3f3f3;
+		}
+		&.active a{
+			background:#02ce76;
+			color:#FFF;
+		}
+	}
+}
