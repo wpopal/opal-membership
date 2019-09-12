@@ -102,6 +102,7 @@ class Opalmembership_Address{
 				'message' => esc_html__('Please enter your address 1', 'opalmembership')
 			),
 			'address_2'          => array(
+				'label'       => esc_html__( 'Address 2', 'opalmembership' ),
 				'placeholder' => _x( 'Apartment, suite, unit etc. (optional)', 'placeholder', 'opalmembership' ),
 				'class'       => array( 'form-row-wide', 'address-field' ),
 				'required'    => false,

@@ -20,7 +20,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
  *
  * @version 1.0
  */
-class Opalmembership_Payment {
+class OpalMembership_Payment {
 
 
 	/**
@@ -185,6 +185,34 @@ class Opalmembership_Payment {
 	 */
 	public function get_lists_byuser( ){
 
+	}
+
+	public function get_user() {
+		if ( $this->user_id ) {
+			$user_info = get_userdata( $this->user_id );
+		}
+
+		if ( ! empty( $user_info ) ) {
+
+			$username = '<a href="user-edit.php?user_id=' . absint( $user_info->ID ) . '">';
+
+			if ( $user_info->first_name || $user_info->last_name ) {
+				$username .= esc_html( ucfirst( $user_info->first_name ) . ' ' . ucfirst( $user_info->last_name ) );
+			} else {
+				$username .= esc_html( ucfirst( $user_info->display_name ) );
+			}
+
+			$username .= '</a>';
+
+		} else {
+			if ( isset( $this->billing_first_name ) && isset( $this->billing_last_name ) ) {
+				$username = trim( $this->billing_first_name . ' ' . $this->billing_last_name );
+			} else {
+				$username = esc_html__( 'Guest', 'opalmembership' );
+			}
+		}
+
+		return $username;
 	}
 
 	public  function insert( $payment_data = array() ){

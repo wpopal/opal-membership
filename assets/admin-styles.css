@@ -12,3 +12,52 @@
 .column-status .payment-gateway {
   font-size: 90%;
 }
+
+.panel-payment-data {
+  display: flex;
+}
+.panel-payment-data .membership-payment-info {
+  width: 50%;
+}
+.panel-payment-data .membership-payment-info table td {
+  padding-bottom: 15px;
+}
+.panel-payment-data .membership-payment-info table td:last-child {
+  font-weight: bold;
+}
+.panel-payment-data .membership-payment-address {
+  width: 50%;
+}
+
+.form-row label {
+  width: 150px;
+}
+
+#opalmembership-payment-items td {
+  font-weight: bold;
+  padding: 15px 0;
+}
+#opalmembership-payment-items td:last-child {
+  color: #f21692;
+}
+#opalmembership-payment-items .payment-total-wrap {
+  background-color: #f7f8fa;
+  padding: 15px;
+  clear: both;
+}
+
+.panel-payment-head {
+  display: flex;
+  padding: 15px;
+  border-bottom: solid 1px #f3f3f3;
+}
+.panel-payment-head > div {
+  width: 33%;
+}
+.panel-payment-head > div span {
+  display: block;
+  padding-bottom: 15px;
+}
+.panel-payment-head > div span:last-child {
+  font-weight: bold;
+}

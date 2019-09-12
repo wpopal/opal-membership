@@ -5,6 +5,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 global $post;
 $fields = OpalMembership()->address()->get_fields( );
 ?>
+
+<div class="panel-payment-head">
+
+	<div class="meta-item">
+		<span><?php esc_html_e( 'Date Purchased', 'opalmembership' ); ?></span>
+		<span><?php echo $thepayment->payment_date; ?></span>
+	</div>
+	<div class="meta-item">
+		<span><?php esc_html_e( 'Payment ID', 'opalmembership' ); ?></span>
+		<span>#<?php echo $thepayment->id; ?></span>
+	</div>
+
+	<div class="meta-item">
+		<span><?php esc_html_e( 'User', 'opalmembership' ); ?></span>
+		<span><?php echo $thepayment->get_user(); ?></span>
+	</div>
+	<hr>
+</div>	
+
 <div class="panel-payment-data">
 
 	<div class="membership-payment-info">

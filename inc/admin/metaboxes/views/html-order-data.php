@@ -2,6 +2,7 @@
  	$fields = OpalMembership()->address()->get_fields();
 
 ?>
+<hr>
 <div class="panel-payment-data">
 
 	<div class="membership-payment-info">
@@ -20,6 +21,9 @@
 			<tr>
 				<td><?php esc_html_e( 'IP Client', 'opalmembership' ); ?></td><td><?php echo $thepayment->get_meta( 'user_ip' ); ?></td>
 			</tr>
+
+		 
+
 		</table>
 	</div>
 
