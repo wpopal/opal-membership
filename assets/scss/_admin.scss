@@ -1,0 +1,17 @@
+////////
+.member-status {
+	background-color:rgba(0,0,0,.05);
+	font-size:90%;
+	padding:3px 8px;
+	border-radius:3%;
+	&.activated {
+		background-color:#b8daff;
+		color:#004085
+	}
+}
+.column-status {
+	.payment-gateway {
+		font-size:90%;
+	}
+}
+////////

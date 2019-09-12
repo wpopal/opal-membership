@@ -1,15 +1,14 @@
-.panel-payment-data {
-	clear:both;
-	display: table;
-	width: 100%
+.member-status {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 90%;
+  padding: 3px 8px;
+  border-radius: 3%;
 }
-.panel-payment-data .membership-payment-info {
-	float:left;
-	width: 40%;
-}
-
-.panel-payment-data .membership-payment-address {
-	float:left;
-	width: 60%;
+.member-status.activated {
+  background-color: #b8daff;
+  color: #004085;
 }
 
+.column-status .payment-gateway {
+  font-size: 90%;
+}

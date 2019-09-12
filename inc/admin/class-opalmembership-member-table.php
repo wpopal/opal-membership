@@ -156,6 +156,10 @@ class Opalmembership_Member_Table extends WP_List_Table {
     public function column_default( $item, $column_name ) {
     	$package_activation = $item['registered_at'];
     	$package_expired = $item['expired_at'];
+        
+        $payment = get_post_meta( $item['lastest_payment'] , OPALMEMBERSHIP_PAYMENT_PREFIX.'gateway' , true );
+
+        $payment = opalmembership_get_gateways_by_key( $payment );
         switch( $column_name ) {
             case 'id':
             case 'username':
@@ -166,15 +170,18 @@ class Opalmembership_Member_Table extends WP_List_Table {
                 return $item[$column_name] ? sprintf( '<a href="%s">#%s<a/>', get_edit_post_link( $item[$column_name] ), $item[$column_name] ) : esc_html__( 'No Payment', 'opalmembership' );
                 break;
             case 'registered_at':
+                return date( 'Y-m-d H:i:s', intval($package_activation) );
+                break;
             case 'expired_at':
-            	return date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), strtotime( $item[$column_name] ) );
+            	return date( 'Y-m-d H:i:s', intval($package_expired) );
             	break;
             case 'current_package':
                     return sprintf( '<a href="%s">%s<a/>', get_edit_post_link( $item['current_package'] ), get_the_title( $item['current_package'] ) );
                 break;
             case 'status':
             	if ( opalmembership_is_membership_valid( $item['id'] ) ) {
-            		return '<span class="member-status activated">'.esc_html__( 'Activated', 'opalmembership' ).'</span>';
+            		return '<span class="member-status activated">'.esc_html__( 'Activated', 'opalmembership' ).'</span>'.
+                    '<p class="payment-gateway">' .$payment. '</p>';
             	} else {
             		return '<span class="member-status expired">'.esc_html__( 'Expired', 'opalmembership' ).'</span>';
             	}
