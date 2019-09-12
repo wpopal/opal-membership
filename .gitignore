@@ -1,7 +1,4 @@
 node_modules/*
 inc/.DS_Store
 .DS_Store
-inc/.DS_Store
-inc/.DS_Store
-.DS_Store
 .sass-cache/**
