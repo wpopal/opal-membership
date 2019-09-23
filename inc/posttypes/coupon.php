@@ -66,7 +66,6 @@ class Opalmembership_PostType_Coupon{
 
 				'show_in_menu'	  => 'opalmembership',
 				'has_archive'       => true,
-				'rewrite'           => array( 'slug' => 'membership-coupon' ),
 				'menu_position'     => 90,
 				'categories'        => array(),
 				'menu_icon'         => 'dashicons-admin-home',

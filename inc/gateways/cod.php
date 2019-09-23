@@ -17,11 +17,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * @class Opal_CF_Gateway_Cod
+ * @class   Opal_CF_Gateway_Cod
  *
  * @version 1.0
  */
-class Opalmembership_Gateway_Cod extends Opalmembership_Abstract_Gateway{
+class Opalmembership_Gateway_Cod extends Opalmembership_Abstract_Gateway {
 
 	/**
 	 * @var string $title payment tittle
@@ -41,28 +41,26 @@ class Opalmembership_Gateway_Cod extends Opalmembership_Abstract_Gateway{
 	/**
 	 * Constructor
 	 */
-	public function __construct(){
+	public function __construct() {
 		$this->title       = esc_html__( 'Card On Delivery', 'opalmembership' );
-		$this->icon   	   =  apply_filters( 'opalmembership_cod_icon', '' );
+		$this->icon        = apply_filters( 'opalmembership_cod_icon', '' );
 		$this->description = esc_html__( 'Have your customers pay with cash (or by other means) upon delivery', 'opalmembership' );
-		add_filter( 'opalmembership_settings_gateways', array( $this, 'admin_fields' ) );
+		add_filter( 'opalmembership_settings_gateways', [ $this, 'admin_fields' ] );
 	}
 
 	/**
 	 * Get admin setting fields
 	 */
-	public function admin_fields( $fields ){
-		$code_field = apply_filters('opalmembership_settings_gateway_cod', array(
+	public function admin_fields( $fields ) {
+		$code_field = apply_filters( 'opalmembership_settings_gateway_cod', [] );
 
-				 
-			) );
 		return array_merge( $fields, $code_field );
 	}
 
 	/**
 	 * Process payment and automatic set payment status, order status
 	 */
-	public function process( $payment_id, $posted ){
+	public function process( $payment_id, $posted ) {
 
 		$payment = new OpalMembership_Payment( $payment_id );
 		$payment->update_status( 'processing', esc_html__( 'Payment to be made upon delivery.', 'opalmembership' ) );
