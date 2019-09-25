@@ -4,7 +4,7 @@ Donate link: http://www.wpopal.com/
 Tags:  community, member, opalestate_addon, profile, ecommerce, subscription, membership, user
 Requires at least: 4.6
 Tested up to: 5.2.2
-Stable tag: 1.1.4
+Stable tag: 1.1.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
