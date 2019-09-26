@@ -1,39 +1,371 @@
-.payment-detail {
-	padding:100px 40px;
+.opalmembership-box {
+	margin-bottom: 30px;
 }
 
-.opalmembership-status {
-	span {
-		color:#FFF;	
-		padding:2px 10px; 
-		border:10%;	
-	}
+.list-group {
+	padding: 0;
 }
+.list-group li {
+	list-style: none;
+}
+.list-group li span {
+	display: inline-block;
+}
+.list-group li span:first-child {
+	width: 150px;
+}
+.list-group li span:last-child {
+	font-weight: 700;
+}
+
+.table-bordered thead {
+	background-color: #000;
+	color: #fff;
+}
+
+.alert {
+	width: 100%;
+	padding: 30px 15px;
+	color: #FFF;
+	margin-bottom: 30px;
+}
+.alert.alert-danger {
+	background: #f55753;
+}
+
+.opalmembership-pagination {
+	text-align: center;
+}
+.opalmembership-pagination li a {
+	padding: 12px;
+	background-color: #f3f3f3;
+}
+.opalmembership-pagination li.active a {
+	background: #02ce76;
+	color: #FFF;
+}
+
+.payment-detail {
+	padding: 100px 40px;
+}
+
+.opalmembership-status span {
+	color: #FFF;
+	padding: 2px 10px;
+	border: 10%;
+}
+
 .label-opal-completed {
-	background-color:#1dbb99;
-	color:#FFF;	
+	background-color: #1dbb99;
+	color: #FFF;
 }
 
 .label-opal-pending {
-	background-color:#37b0e9;
-
+	background-color: #37b0e9;
 }
 
 .label-opal-on-hold {
-	background-color:#1dbb99;
+	background-color: #1dbb99;
 }
+
 .label-opal-failed {
-	background-color:#1dbb99;
+	background-color: #1dbb99;
 }
 
 .label-opal-cancelled {
-	background-color:#1dbb99;
+	background-color: #1dbb99;
 }
+
 .lable-opal-refunded {
-	background-color:#f35958;
+	background-color: #f35958;
 }
 
 .label-opal-processing {
-	background-color:#e8d30c;
-	color:#000 !important;  
+	background-color: #e8d30c;
+	color: #000 !important;
+}
+
+/**NEW*/
+.opalmembership-hidden{
+	display: none;
+}
+/* notices */
+.opalmembership-notice {
+	border-top: none;
+	font-size: 15px;
+	padding: 10px 15px;
+	width: auto;
+	word-wrap: break-word;
+	color: #31708f;
+	background: #d9edf7;
+}
+.opalmembership-notice a{
+	color: #ffb606;
+}
+.opalmembership-notice.opalmembership-notice-error{
+	border-left: 2px solid #b81c23;
+	background-color: #f7f6f7;
+	color: #666;
+	list-style: none;
+}
+.opalmembership-notice-error li{
+	font-size: 15px;
+}
+/* Pricing Table */
+.opalmembership-pricing-table {
+	margin-bottom: 30px;
+}
+.opalmembership-pricing-table .pricing-column{
+	position: relative;
+	min-height: 1px;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.opalmembership-pricing-table .pricing-column.featured{
+	position: relative;
+	background: none repeat scroll 0 0 #fff;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: -20px -1px 0;
+	z-index: 100;
+}
+.opalmembership-pricing-table .pricing-column .pricing-content {
+	border-left: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	border-right: none;
+	background: #fff;
+}
+.opalmembership-pricing-table .pricing-column .pricing-content .pricing-header {
+	border: none;
+	background: none;
+	padding: 0;
+}
+.opalmembership-pricing-table .pricing-column .pricing-content .pricing-header .pricing-title {
+	padding: 16px 24px;
+	margin: 10px 0;
+	text-transform: uppercase;
+	margin: 0;
+	color: #75b08a;
+	font-size: 16px;
+}
+.opalmembership-pricing-table .pricing-column .pricing-content .pricing-header .pricing-value {
+	padding: 16px 24px;
+	background-color: #F2F2F2;
+	margin: 0;
+	color: #2d313f;
+}
+.opalmembership-pricing-table .pricing-column.featured .pricing-content .pricing-header .pricing-value{
+	background-color: #75b08a;
+	color: #fff;
+}
+.opalmembership-pricing-table .pricing-column .pricing-content .pricing-header .pricing-value .pricing-price{
+	font-size: 16px;
+}
+.membership-price {
+	font-size: 30px;
+	color: #75b08a;
+	font-weight: 300;
+}
+.membership-price .membership-oldprice{
+	font-size: 20px;
+}
+.pricing-column.featured .membership-price {
+	color: #fff;
+}
+.opalmembership-pricing-table .pricing-column .pricing-footer {
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	padding: 16px 24px;
+	text-align: center;
+}
+.opalmembership-pricing-table .pricing-column .opalesate_pricing_form .register_button{
+	background: none !important;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	border-width: 2px;
+	border-color: #d2d2d2;
+	color: #d2d2d2;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 18px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 8px 20px;
+	text-shadow: none;
+}
+.opalmembership-pricing-table .pricing-column.featured .opalesate_pricing_form .register_button{
+	margin: 15px 0;
+	border-color: #75b08a !important;
+	color: #75b08a !important;
+}
+
+/* form member */
+.opalmembership-login-form-toggle{
+	overflow: hidden;
+}
+.opalmembership-login-form-toggle .opalesate-form-wrapper{
+	width: 100%;
+}
+.opalesate-form-wrapper{
+	width: 50%;
+	float: left;
+	background-color: #fff;
+	border: 1px solid #d3ced2;
+	padding: 20px;
+	margin: 2em 0;
+	text-align: left;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.opalesate-form-wrapper h2{
+	margin: 0 0 10px 0;
+}
+.opalesate-form-wrapper * {
+	color: #111;
+	font-size: 14px;
+}
+.opalesate-form-wrapper h2{
+	font-size: 28px;
+}
+.opalmembership-member-form{
+	overflow: hidden;
+}
+.opalmembership-form-field{
+	padding: 3px;
+	margin: 0 0 6px;
+	float: left;
+	width: 100%;
+	overflow: visible;
+}
+.opalmembership-form-field label{
+	display: block;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 2;
+}
+.opalmembership-form-field .required{
+	color: red;
+	font-weight: 700;
+	border: 0;
+}
+.opalmembership-input {
+	line-height: 24px;
+	padding: 7px 10px;
+	min-height: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 0;
+	border: 1px solid #eee;
+}
+.opalmembership-input.input-text{
+	width: 100%;
+}
+
+#rememberme-label{
+	display: inline;
+}
+#rememberme-label .opalmembership-input.checkbox {
+	border: 1px solid #b4b9be;
+	background: #fff;
+	color: #555;
+	clear: none;
+	cursor: pointer;
+	display: inline-block;
+	height: 16px;
+	margin: -4px 4px 0 0;
+	outline: 0;
+	padding: 0!important;
+	text-align: center;
+	vertical-align: middle;
+	width: 16px;
+	min-width: 16px;
+}
+.opalmembership-login-form-wrapper.panel {
+	margin-bottom: 0;
+	box-shadow: none;
+}
+.opalmembership-login-form-wrapper .panel-body {
+	padding:  30px;
+}
+.opalmembership-login-form-wrapper .panel-body > h3 {
+	margin: 0 0 15px;
+}
+.opalmembership-login-form-wrapper .opalesate-form-wrapper {
+	border: none;
+	margin: 20px auto 10px;
+}
+.opalmembership-login-form-wrapper .opalesate-form-wrapper > h2 {
+	margin-top: 20px;
+	display:  none;
+}
+/* end form member */
+
+/* checkout form */
+.opal-gateway-panel{
+	margin: 10px 0;
+}
+.opalmembership-shoppingcart{
+	margin: 30px 0;
+}
+.opalmembership-shoppingcart caption{
+	font-size: 24px;
+	font-weight: 700;
+	color: #000;
+}
+.opalmembership-login-form{
+	overflow: hidden;
+}
+
+.opalmembership-billing-fields [class^="col-"]{
+	width: 50%;
+	float: left;
+}
+.billing-fields label,
+.opal-gateway-stripe label{
+	display: block;
+	min-width: 200px;
+}
+.billing-fields .input-text,
+.billing-fields select,
+.opal-gateway-stripe .input-text {
+	border: 1px solid #eee;
+	line-height: 24px;
+	padding: 7px 10px;
+	min-height: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width: 100%;
+}
+
+.billing-fields select {
+	height: 40px;
+}
+
+.form-row.has-error label,
+.form-row .input-error{
+	color: #a00;
+}
+.form-row.has-error .input-text,
+.form-row.has-error select{
+	border: 1px solid #a00;
+}
+.form-row .input-error{
+	display: inline;
+	margin: 0;
+	font-size: 14px;
+}
+.form-row.validate-success .input-text,
+.form-row.validate-success select{
+	border: 1px solid #69bf29;
+}
+
+.widget_opalestate_profile_info_widget {
+	border: 3px solid #07a5db;
+}
+
+.sidebar .widget.widget_opalmembership_quick_purchase{
+	background: #fabd47
 }
