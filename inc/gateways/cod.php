@@ -42,7 +42,7 @@ class Opalmembership_Gateway_Cod extends Opalmembership_Abstract_Gateway {
 	 * Constructor
 	 */
 	public function __construct() {
-		$this->title       = esc_html__( 'Card On Delivery', 'opalmembership' );
+		$this->title       = esc_html__( 'Cash On Delivery', 'opalmembership' );
 		$this->icon        = apply_filters( 'opalmembership_cod_icon', '' );
 		$this->description = esc_html__( 'Have your customers pay with cash (or by other means) upon delivery', 'opalmembership' );
 		add_filter( 'opalmembership_settings_gateways', [ $this, 'admin_fields' ] );

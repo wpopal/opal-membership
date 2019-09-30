@@ -1,0 +1,2450 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Opal Membership\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30 03:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: inc/admin/class-admin-metaboxes.php:88
+#, php-format
+msgid "%s Actions"
+msgstr ""
+
+#: inc/admin/class-admin-metaboxes.php:60
+#, php-format
+msgid "%s Content Protect"
+msgstr ""
+
+#: inc/admin/class-admin-metaboxes.php:83
+#, php-format
+msgid "%s Data"
+msgstr ""
+
+#: inc/admin/class-admin-metaboxes.php:84
+#, php-format
+msgid "%s Items"
+msgstr ""
+
+#: inc/admin/class-admin-metaboxes.php:86
+#, php-format
+msgid "%s Notes"
+msgstr ""
+
+#: inc/country-functions.php:926
+msgid "&Aacute;vila"
+msgstr ""
+
+#: inc/admin/register-settings.php:739
+msgid "1 Week"
+msgstr ""
+
+#: inc/admin/register-settings.php:736
+msgid "24 Hours"
+msgstr ""
+
+#: inc/admin/register-settings.php:737
+msgid "48 Hours"
+msgstr ""
+
+#: inc/admin/register-settings.php:738
+msgid "72 Hours"
+msgstr ""
+
+#: install.php:112
+msgid "[opalmembership_checkout]"
+msgstr ""
+
+#: install.php:150
+msgid "[opalmembership_checkout_failed]"
+msgstr ""
+
+#: install.php:53
+msgid "[opalmembership_dashboard]"
+msgstr ""
+
+#: install.php:131
+msgid "[opalmembership_history]"
+msgstr ""
+
+#: install.php:188
+msgid "[opalmembership_login_form]"
+msgstr ""
+
+#: install.php:73
+msgid "[opalmembership_packages]"
+msgstr ""
+
+#: install.php:93
+msgid "[opalmembership_receipt]"
+msgstr ""
+
+#: install.php:169
+msgid "[opalmembership_register_form]"
+msgstr ""
+
+#: inc/country-functions.php:920
+msgid "A Coru&ntilde;a"
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:46
+msgid "A user could not be found with this email address."
+msgstr ""
+
+#: templates/account/history.php:17
+msgid "Action"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:47
+msgid "Actions"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:183
+msgid "Activated"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:53
+msgid "Activated At"
+msgstr ""
+
+#: inc/posttypes/payment.php:200
+#, php-format
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/posttypes/payment.php:195
+msgctxt "Active discount code status"
+msgid "Active"
+msgstr ""
+
+#: inc/widgets/current-package.php:65 templates/account/current-package.php:59
+msgid "Activion Date"
+msgstr ""
+
+#: inc/admin/metaboxes/class-admin-metabox-order-notes.php:74
+#: inc/admin/metaboxes/class-metabox-content-protect.php:74
+#: inc/admin/metaboxes/class-admin-metabox-payment-notes.php:72
+msgid "Add"
+msgstr ""
+
+#: inc/admin/metaboxes/class-admin-metabox-order-notes.php:63
+#: inc/admin/metaboxes/class-metabox-content-protect.php:63
+#: inc/admin/metaboxes/class-admin-metabox-payment-notes.php:61
+msgid ""
+"Add a note for your reference, or add a customer note (the user will be "
+"notified)."
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:42
+msgid "Add New Category"
+msgstr ""
+
+#: inc/posttypes/coupon.php:42 inc/posttypes/coupon.php:43
+msgid "Add New Coupon"
+msgstr ""
+
+#: inc/posttypes/package.php:41 inc/posttypes/package.php:42
+msgid "Add New Package"
+msgstr ""
+
+#: inc/posttypes/payment.php:39 inc/posttypes/payment.php:40
+msgid "Add New Payment"
+msgstr ""
+
+#: inc/admin/metaboxes/class-admin-metabox-order-notes.php:63
+#: inc/admin/metaboxes/class-metabox-content-protect.php:63
+#: inc/admin/metaboxes/class-admin-metabox-payment-notes.php:61
+msgid "Add note"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:98
+msgid "Address"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:105
+msgid "Address 2"
+msgstr ""
+
+#: templates/checkout/billing-form.php:19
+msgid "Address Details"
+msgstr ""
+
+#: inc/admin/register-settings.php:721
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/admin/register-settings.php:371
+msgid "After - 10$"
+msgstr ""
+
+#: inc/country-functions.php:922
+msgid "Albacete"
+msgstr ""
+
+#: inc/country-functions.php:923
+msgid "Alicante"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:37
+msgid "All Categories"
+msgstr ""
+
+#: inc/posttypes/coupon.php:46
+msgid "All Coupons"
+msgstr ""
+
+#: inc/functions.php:35 inc/posttypes/package.php:45
+msgid "All Packages"
+msgstr ""
+
+#: inc/posttypes/payment.php:43
+msgid "All Payments"
+msgstr ""
+
+#: inc/country-functions.php:924
+msgid "Almer&iacute;a"
+msgstr ""
+
+#: inc/mixes-functions.php:1052
+msgid "An account is already registered with your email address. Please login."
+msgstr ""
+
+#: inc/admin/register-settings.php:784 inc/admin/register-settings.php:790
+msgid "API"
+msgstr ""
+
+#: inc/admin/register-settings.php:1219
+#, php-format
+msgid ""
+"API keys allow users to use the <a href=\"%s\">Opalmembership REST API</a> "
+"to retrieve donation data in JSON or XML for external applications or "
+"devices, such as <a href=\"%s\">Zapier</a>."
+msgstr ""
+
+#: inc/core/class-opalmembership-coupon.php:96
+msgid "Applied this coupon successfully"
+msgstr ""
+
+#: templates/checkout/shoppingcart.php:49
+msgid "Apply"
+msgstr ""
+
+#: inc/country-functions.php:921
+msgid "Araba"
+msgstr ""
+
+#: inc/admin/register-settings.php:483
+msgid ""
+"Archives pages list all the forms you have created. This option will disable "
+"only the form's archive page(s). The single form's view will remain in place."
+" Note: you will need to refresh your permalinks after this option has been "
+"enabled."
+msgstr ""
+
+#: inc/country-functions.php:925
+msgid "Asturias"
+msgstr ""
+
+#: inc/mixes-functions.php:379
+msgid "Australian Dollars (&#36;)"
+msgstr ""
+
+#: templates/account/payment-detail.php:130
+msgid "Back To List"
+msgstr ""
+
+#: inc/country-functions.php:927
+msgid "Badajoz"
+msgstr ""
+
+#: inc/country-functions.php:928
+msgid "Baleares"
+msgstr ""
+
+#: inc/country-functions.php:929
+msgid "Barcelona"
+msgstr ""
+
+#: inc/admin/register-settings.php:343
+msgid "Base Country"
+msgstr ""
+
+#: inc/admin/register-settings.php:370
+msgid "Before - $10"
+msgstr ""
+
+#: templates/account/payment-detail.php:52
+#: inc/admin/metaboxes/views/html-order-data.php:31
+#: inc/admin/metaboxes/views/html-payment-data.php:49
+msgid "Billing Address"
+msgstr ""
+
+#: inc/country-functions.php:969
+msgid "Bizkaia"
+msgstr ""
+
+#: inc/mixes-functions.php:380
+msgid "Brazilian Real (R&#36;)"
+msgstr ""
+
+#: inc/country-functions.php:930
+msgid "Burgos"
+msgstr ""
+
+#: templates/single-package-purchase-form.php:4
+msgid "Buy Now"
+msgstr ""
+
+#: inc/admin/register-settings.php:477
+msgid ""
+"By default, all forms have single views enabled which create a specific URL "
+"on your website for that form. This option disables the singular and archive "
+"views from being publicly viewable. Note: you will need to embed forms using "
+"a shortcode or widget if enabled."
+msgstr ""
+
+#: inc/widgets/quick-purchase.php:57
+msgid "By Now"
+msgstr ""
+
+#: inc/country-functions.php:931
+msgid "C&aacute;ceres"
+msgstr ""
+
+#: inc/country-functions.php:932
+msgid "C&aacute;diz"
+msgstr ""
+
+#: inc/country-functions.php:937
+msgid "C&oacute;rdoba"
+msgstr ""
+
+#: inc/mixes-functions.php:381
+msgid "Canadian Dollars (&#36;)"
+msgstr ""
+
+#: inc/mixes-functions.php:988
+msgid "Cancelled"
+msgstr ""
+
+#: inc/posttypes/payment.php:173
+#, php-format
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/country-functions.php:933
+msgid "Cantabria"
+msgstr ""
+
+#: inc/gateways/stripe.php:161
+msgid "Card Code (CVC)"
+msgstr ""
+
+#: inc/gateways/stripe.php:145
+msgid "Card Number"
+msgstr ""
+
+#: inc/gateways/cod.php:45
+msgid "Card On Delivery"
+msgstr ""
+
+#: inc/country-functions.php:934
+msgid "Castell&oacute;n"
+msgstr ""
+
+#: inc/admin/class-admin-pages.php:39 inc/taxonomies/package-taxonomy.php:34
+#: inc/taxonomies/package-taxonomy.php:44
+msgid "Categories"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:35
+msgid "Category"
+msgstr ""
+
+#: inc/country-functions.php:935
+msgid "Ceuta"
+msgstr ""
+
+#: opalmembership.php:165
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/register-settings.php:750
+msgid ""
+"Check this box if you would like Opalmembership to completely remove all of "
+"its data when the plugin is deleted."
+msgstr ""
+
+#: inc/admin/register-settings.php:774
+msgid ""
+"Check this box if you would like Opalmembership to load all frontend "
+"JavaScript files in the footer."
+msgstr ""
+
+#: inc/admin/register-settings.php:513
+msgid ""
+"Check this option if you would like to categorize your donation forms. This "
+"option enables the form's category taxonomy."
+msgstr ""
+
+#: inc/admin/register-settings.php:519
+msgid ""
+"Check this option if you would like to tag your donation forms. This option "
+"enables the form's tag taxonomy."
+msgstr ""
+
+#: inc/admin/register-settings.php:314
+msgid "CheckOut Page"
+msgstr ""
+
+#: inc/admin/register-settings.php:423
+msgid "Choose the payment gateways you would like enabled."
+msgstr ""
+
+#: inc/country-functions.php:936
+msgid "Ciudad Real"
+msgstr ""
+
+#: inc/widgets/quick-purchase.php:63 inc/widgets/current-package.php:75
+#: templates/account/current-package.php:77
+#: templates/account/membership-warning.php:5
+msgid "Click to this link to see plans"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:93
+msgid "Company Name"
+msgstr ""
+
+#: templates/checkout/checkout-form.php:67
+msgid "Complete Now"
+msgstr ""
+
+#: inc/mixes-functions.php:989
+msgid "Completed"
+msgstr ""
+
+#: inc/posttypes/payment.php:165
+#, php-format
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/payment-detail.php:126
+msgid "Could not find any payment"
+msgstr ""
+
+#: inc/class-opalmembership-ajax.php:102
+msgid "Could not save to cart, please try again."
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:138
+msgid "Country"
+msgstr ""
+
+#: templates/checkout/shoppingcart.php:58
+#: inc/admin/metaboxes/views/html-order-items.php:34
+msgid "Coupon"
+msgstr ""
+
+#: inc/posttypes/coupon.php:173
+msgid "Coupon Information"
+msgstr ""
+
+#: inc/gateways/stripe.php:233
+msgid "Credit Card CVC is invalid."
+msgstr ""
+
+#: inc/gateways/stripe.php:228
+msgid "Credit Card CVC is required."
+msgstr ""
+
+#: inc/gateways/stripe.php:253
+msgid "Credit Card details is empty."
+msgstr ""
+
+#: inc/gateways/stripe.php:215
+msgid "Credit Card expiry is invalid."
+msgstr ""
+
+#: inc/gateways/stripe.php:210
+msgid "Credit Card expiry is required."
+msgstr ""
+
+#: inc/gateways/stripe.php:197
+msgid "Credit Card number is invalid."
+msgstr ""
+
+#: inc/gateways/stripe.php:192
+msgid "Credit Card number is required."
+msgstr ""
+
+#: inc/gateways/stripe.php:80
+msgid "Credit Card Payment"
+msgstr ""
+
+#: inc/country-functions.php:938
+msgid "Cuenca"
+msgstr ""
+
+#: inc/admin/register-settings.php:351
+msgid "Currency Settings"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:51
+#: templates/account/current-package.php:55
+msgid "Current Package"
+msgstr ""
+
+#: inc/mixes-functions.php:382
+msgid "Czech Koruna"
+msgstr ""
+
+#: inc/mixes-functions.php:383
+msgid "Danish Krone"
+msgstr ""
+
+#: inc/class-opalmembership-user.php:105
+msgid "Dashboard"
+msgstr ""
+
+#: inc/admin/register-settings.php:262
+msgid "Dashboard Page"
+msgstr ""
+
+#: inc/admin/register-settings.php:743
+msgid "Data Control"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:45 templates/account/history.php:12
+msgid "Date"
+msgstr ""
+
+#: templates/account/payment-detail.php:21
+msgid "Date Purchase"
+msgstr ""
+
+#: inc/admin/metaboxes/views/html-payment-data.php:12
+msgid "Date Purchased"
+msgstr ""
+
+#: templates/checkout/thankyou.php:49
+msgid "Date:"
+msgstr ""
+
+#: inc/functions.php:55
+msgid "Day"
+msgstr ""
+
+#: inc/admin/register-settings.php:1182
+msgid "Deactivate License"
+msgstr ""
+
+#: inc/admin/register-settings.php:391
+msgid "Decimal Numbers"
+msgstr ""
+
+#: inc/admin/register-settings.php:383
+msgid "Decimal Separator"
+msgstr ""
+
+#: inc/admin/register-settings.php:429
+msgid "Default Gateway"
+msgstr ""
+
+#: inc/mixes-functions.php:967
+#: inc/admin/class-opalmembership-member-table.php:140
+#: inc/admin/class-opalmembership-member-table.php:270
+msgid "Delete"
+msgstr ""
+
+#: inc/admin/metaboxes/class-metabox-payment-actions.php:66
+msgid "Delete Permanently"
+msgstr ""
+
+#: inc/mixes-functions.php:967
+msgid "Delete this payment note"
+msgstr ""
+
+#: inc/admin/register-settings.php:761
+msgid "Disable <code>the_content</code> filter"
+msgstr ""
+
+#: inc/admin/register-settings.php:452
+msgid "Disable CSS"
+msgstr ""
+
+#: inc/admin/register-settings.php:482
+msgid "Disable Form Archives"
+msgstr ""
+
+#: inc/admin/register-settings.php:488
+msgid "Disable Form Excerpts"
+msgstr ""
+
+#: inc/admin/register-settings.php:494
+msgid "Disable Form Featured Image"
+msgstr ""
+
+#: inc/admin/register-settings.php:476
+msgid "Disable Form Single Views"
+msgstr ""
+
+#: inc/admin/register-settings.php:500
+msgid "Disable Single Form Sidebar"
+msgstr ""
+
+#: inc/admin/register-settings.php:464
+msgid "Disable Welcome Screen"
+msgstr ""
+
+#: inc/posttypes/coupon.php:153
+msgid "Discount For"
+msgstr ""
+
+#: inc/posttypes/coupon.php:104
+msgid "Discount Type"
+msgstr ""
+
+#: inc/posttypes/coupon.php:112
+msgid "Discount Value"
+msgstr ""
+
+#: inc/widgets/quick-purchase.php:13
+msgid "Display all packages and allow quick purchase one"
+msgstr ""
+
+#: inc/admin/register-settings.php:442 inc/admin/register-settings.php:446
+msgid "Display Settings"
+msgstr ""
+
+#: inc/widgets/current-package.php:13
+msgid "Display summary of current package"
+msgstr ""
+
+#: inc/posttypes/package.php:121
+msgid "Do you want enable expired date?"
+msgstr ""
+
+#: inc/posttypes/package.php:114
+msgid "Do you want enable recurring?"
+msgstr ""
+
+#: inc/class-opalmembership-email.php:147
+msgid "Duration:"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:141
+msgid "Edit"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:40
+msgid "Edit Category"
+msgstr ""
+
+#: inc/posttypes/coupon.php:44
+msgid "Edit Coupon"
+msgstr ""
+
+#: inc/posttypes/package.php:43
+msgid "Edit Package"
+msgstr ""
+
+#: inc/posttypes/payment.php:41
+msgid "Edit Payment"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:72
+#: inc/admin/class-opalmembership-member-table.php:50
+msgid "Email"
+msgstr ""
+
+#: inc/posttypes/payment.php:91
+msgid "email"
+msgstr ""
+
+#: templates/account/register-form.php:46
+msgid "Email address"
+msgstr ""
+
+#: inc/admin/register-settings.php:590 inc/admin/register-settings.php:615
+#: inc/admin/register-settings.php:643 inc/admin/register-settings.php:669
+#: inc/admin/register-settings.php:695
+msgid "Email Body"
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:135
+msgid "Email is required."
+msgstr ""
+
+#: inc/admin/register-settings.php:536
+msgid "Email Settings"
+msgstr ""
+
+#: inc/admin/register-settings.php:578 inc/admin/register-settings.php:604
+#: inc/admin/register-settings.php:632 inc/admin/register-settings.php:658
+#: inc/admin/register-settings.php:684
+msgid "Email Subject"
+msgstr ""
+
+#: inc/admin/register-settings.php:564
+msgid "Email Templates (Template Tags)"
+msgstr ""
+
+#: inc/admin/register-settings.php:551
+msgid ""
+"Email to send donation receipts from. This will act as the \"from\" and "
+"\"reply-to\" address."
+msgstr ""
+
+#: inc/admin/register-settings.php:109
+msgid "Emails"
+msgstr ""
+
+#: inc/posttypes/package.php:118
+msgid "Enable Expired Date "
+msgstr ""
+
+#: inc/admin/register-settings.php:458
+msgid "Enable Floating Labels"
+msgstr ""
+
+#: inc/admin/register-settings.php:512
+msgid "Enable Form Categories"
+msgstr ""
+
+#: inc/admin/register-settings.php:518
+msgid "Enable Form Tags"
+msgstr ""
+
+#: inc/admin/register-settings.php:336
+msgid "Enable Guest Checkout"
+msgstr ""
+
+#: inc/admin/register-settings.php:453
+msgid ""
+"Enable this option if you would like to disable all of Opalmembership's "
+"included CSS stylesheets."
+msgstr ""
+
+#: inc/admin/register-settings.php:465
+#, php-format
+msgid ""
+"Enable this option if you would like to disable the Opalmembership Welcome "
+"screen every time Opalmembership is activated and/or updated. You can always "
+"access the Welcome Screen <a href=\"%s\">here</a> if you want in the future."
+msgstr ""
+
+#: inc/admin/register-settings.php:459
+#, php-format
+msgid ""
+"Enable this option if you would like to enable <a href=\"%s\" "
+"target=\"_blank\">floating labels</a> in Opalmembership's donation forms.<br>"
+"Be aware that if you have the \"Disable CSS\" option enabled, you will need "
+"to style the floating labels yourself."
+msgstr ""
+
+#: inc/admin/register-settings.php:422
+msgid "Enabled Gateways"
+msgstr ""
+
+#: inc/posttypes/coupon.php:115
+msgid "Enter discount value"
+msgstr ""
+
+#: inc/posttypes/coupon.php:137
+msgid "Enter End Date"
+msgstr ""
+
+#: inc/posttypes/package.php:142
+msgid "Enter expired date type. Example Day(s), Week(s), Month(s), Year(s)"
+msgstr ""
+
+#: inc/posttypes/package.php:134
+msgid "Enter expired number. Example 1, 2, 3"
+msgstr ""
+
+#: inc/posttypes/payment.php:94
+msgid "Enter Job example CEO, CTO"
+msgstr ""
+
+#: inc/posttypes/package.php:100
+#, php-format
+msgid "Enter Price Package (%s)"
+msgstr ""
+
+#: inc/posttypes/package.php:107
+#, php-format
+msgid "Enter Sale Price (%s)"
+msgstr ""
+
+#: inc/posttypes/coupon.php:129
+msgid "Enter Start Date"
+msgstr ""
+
+#: inc/admin/register-settings.php:645
+msgid ""
+"Enter the email a user should receive when their booking has been confirmed."
+msgstr ""
+
+#: inc/admin/register-settings.php:697
+msgid ""
+"Enter the email a user should receive when their booking has been refunded."
+msgstr ""
+
+#: inc/admin/register-settings.php:671
+msgid ""
+"Enter the email a user should receive when their booking has been rejected."
+msgstr ""
+
+#: inc/admin/register-settings.php:617
+msgid ""
+"Enter the email a user should receive when they make an initial payment "
+"request."
+msgstr ""
+
+#: inc/admin/register-settings.php:592
+msgid ""
+"Enter the email an admin should receive when an initial payment request is "
+"made."
+msgstr ""
+
+#: inc/admin/register-settings.php:559
+msgid "Enter the message to display when a payment request is made."
+msgstr ""
+
+#: inc/gateways/pp_standard.php:117
+msgid ""
+"Enter the name of the page style to use, or leave blank to use the default"
+msgstr ""
+
+#: inc/posttypes/coupon.php:149
+msgid "Enter usage limit time"
+msgstr ""
+
+#: templates/checkout/shoppingcart.php:46
+msgid "Enter your coupon code"
+msgstr ""
+
+#: inc/gateways/stripe.php:123
+msgid "Enter your live secret key"
+msgstr ""
+
+#: inc/gateways/stripe.php:129
+msgid "Enter your live stripe publish key."
+msgstr ""
+
+#: inc/gateways/pp_standard.php:111
+msgid "Enter your PayPal account's email"
+msgstr ""
+
+#: inc/gateways/stripe.php:117
+msgid "Enter your test publish key"
+msgstr ""
+
+#: inc/gateways/stripe.php:111
+msgid "Enter your test secret key"
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:32
+#: inc/class-opalmembership-form-handler.php:37
+#: inc/class-opalmembership-form-handler.php:46
+#: inc/class-opalmembership-form-handler.php:56
+#: inc/class-opalmembership-form-handler.php:123
+#: inc/class-opalmembership-form-handler.php:128
+#: inc/class-opalmembership-form-handler.php:135
+#: inc/class-opalmembership-form-handler.php:142
+#: inc/class-opalmembership-form-handler.php:145
+#: inc/class-opalmembership-form-handler.php:153
+msgid "ERROR"
+msgstr ""
+
+#: inc/mixes-functions.php:377
+msgid "Euros (&euro;)"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:186
+msgid "Expired"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:54
+msgid "Expired At"
+msgstr ""
+
+#: inc/posttypes/coupon.php:133
+msgid "Expired Date"
+msgstr ""
+
+#: inc/posttypes/package.php:125
+msgid "Expired Date In"
+msgstr ""
+
+#: inc/posttypes/package.php:138
+msgid "Expired Date Type"
+msgstr ""
+
+#: inc/widgets/current-package.php:66 templates/account/current-package.php:60
+msgid "Expired On"
+msgstr ""
+
+#: inc/gateways/stripe.php:153
+msgid "Expires (MM/YY)"
+msgstr ""
+
+#: inc/mixes-functions.php:987
+msgid "Failed"
+msgstr ""
+
+#: inc/posttypes/payment.php:189
+#, php-format
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/pricing-table.php:35
+#, php-format
+msgid "Featured Property: %s"
+msgstr ""
+
+#: inc/admin/register-settings.php:755
+msgid "Filter Control"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:80
+msgid "First Name"
+msgstr ""
+
+#: inc/posttypes/coupon.php:107
+msgid "Fixed Amount"
+msgstr ""
+
+#: inc/admin/register-settings.php:550
+msgid "From Email"
+msgstr ""
+
+#: inc/admin/register-settings.php:543
+msgid "From Name"
+msgstr ""
+
+#: templates/account/payment-detail.php:25
+#: inc/admin/metaboxes/views/html-order-data.php:12
+#: inc/admin/metaboxes/views/html-payment-data.php:33
+msgid "Gateway"
+msgstr ""
+
+#: inc/admin/register-settings.php:409
+msgid "Gateways Settings"
+msgstr ""
+
+#: inc/admin/register-settings.php:106
+msgid "General"
+msgstr ""
+
+#: inc/admin/register-settings.php:231 inc/admin/register-settings.php:235
+msgid "General Settings"
+msgstr ""
+
+#: inc/country-functions.php:942
+msgid "Gipuzkoa"
+msgstr ""
+
+#: inc/country-functions.php:939
+msgid "Girona"
+msgstr ""
+
+#: inc/admin/register-settings.php:1054
+msgid "Global Default"
+msgstr ""
+
+#: inc/country-functions.php:940
+msgid "Granada"
+msgstr ""
+
+#: inc/admin/register-settings.php:242
+msgid "Grid Column"
+msgstr ""
+
+#: inc/country-functions.php:941
+msgid "Guadalajara"
+msgstr ""
+
+#: inc/core/class-opalmembership-payment.php:211
+#: inc/admin/class-admin-posttype.php:127
+msgid "Guest"
+msgstr ""
+
+#: templates/checkout/shoppingcart.php:45
+msgid "Have any coupon?"
+msgstr ""
+
+#: inc/gateways/cod.php:47
+msgid "Have your customers pay with cash (or by other means) upon delivery"
+msgstr ""
+
+#: inc/posttypes/package.php:88
+msgid "Highlighted"
+msgstr ""
+
+#: inc/mixes-functions.php:384
+msgid "Hong Kong Dollar (&#36;)"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.wpopal.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://www.wpopal.com/plugins/membership"
+msgstr ""
+
+#: inc/country-functions.php:943
+msgid "Huelva"
+msgstr ""
+
+#: inc/country-functions.php:944
+msgid "Huesca"
+msgstr ""
+
+#: inc/mixes-functions.php:385
+msgid "Hungarian Forint"
+msgstr ""
+
+#: inc/admin/register-settings.php:762
+#, php-format
+msgid ""
+"If you are seeing extra social buttons, related posts, or other unwanted "
+"elements appearing within your forms then you can disable WordPress' content "
+"filter. <a href=\"%s\" target=\"_blank\">Learn more</a> about the_content "
+"filter."
+msgstr ""
+
+#: inc/mixes-functions.php:1135
+msgid ""
+"If you have registed with us before, please enter your details in the boxes "
+"below. If you are a new agent, please proceed to the Billing section."
+msgstr ""
+
+#: inc/posttypes/payment.php:203
+msgctxt "Inactive discount code status"
+msgid "inactive"
+msgstr ""
+
+#: inc/mixes-functions.php:399
+msgid "Indian Rupee (&#8377;)"
+msgstr ""
+
+#: templates/account/payment-detail.php:18
+msgid "Information"
+msgstr ""
+
+#: inc/gateways/stripe.php:248
+msgid "Invalid Secret, Publish Stripe key."
+msgstr ""
+
+#: templates/account/payment-detail.php:44
+#: inc/admin/metaboxes/views/html-order-data.php:22
+#: inc/admin/metaboxes/views/html-payment-data.php:43
+msgid "IP Client"
+msgstr ""
+
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:156
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:159
+msgid "IPN payment completed"
+msgstr ""
+
+#: inc/mixes-functions.php:401
+msgid "Iranian Rial (&#65020;)"
+msgstr ""
+
+#: inc/mixes-functions.php:386
+msgid "Israeli Shekel (&#8362;)"
+msgstr ""
+
+#: inc/country-functions.php:945
+msgid "Ja&eacute;n"
+msgstr ""
+
+#: inc/mixes-functions.php:387
+msgid "Japanese Yen (&yen;)"
+msgstr ""
+
+#: templates/account/payment-detail.php:36
+#: inc/admin/metaboxes/views/html-order-data.php:14
+#: inc/admin/metaboxes/views/html-payment-data.php:35
+msgid "Key"
+msgstr ""
+
+#: inc/country-functions.php:946
+msgid "La Rioja"
+msgstr ""
+
+#: inc/country-functions.php:947
+msgid "Las Palmas"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:86
+msgid "Last Name"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:52
+#: templates/account/current-package.php:43
+msgid "Lastest Payment"
+msgstr ""
+
+#: inc/country-functions.php:948
+msgid "Le&oacute;n"
+msgstr ""
+
+#: inc/gateways/stripe.php:128
+msgid "Live Publish Key"
+msgstr ""
+
+#: inc/gateways/stripe.php:122
+msgid "Live Secret Key"
+msgstr ""
+
+#: inc/country-functions.php:949
+msgid "Lleida"
+msgstr ""
+
+#: inc/admin/register-settings.php:773
+msgid "Load Scripts in Footer?"
+msgstr ""
+
+#: templates/checkout/login-form.php:19 templates/account/login-form.php:15
+#: templates/account/login-form.php:47
+msgid "Login"
+msgstr ""
+
+#: inc/admin/register-settings.php:291
+msgid "Login Page"
+msgstr ""
+
+#: inc/admin/register-settings.php:284
+msgid "Login user after register completed"
+msgstr ""
+
+#: templates/account/login-form.php:48
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/country-functions.php:950
+msgid "Lugo"
+msgstr ""
+
+#: inc/country-functions.php:952
+msgid "M&aacute;laga"
+msgstr ""
+
+#: inc/country-functions.php:951
+msgid "Madrid"
+msgstr ""
+
+#: inc/mixes-functions.php:388
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: inc/posttypes/package.php:80
+msgid "Maximum Purchased"
+msgstr ""
+
+#: inc/country-functions.php:953
+msgid "Melilla"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:55
+msgid "Member Status"
+msgstr ""
+
+#: inc/admin/class-admin-pages.php:38
+msgid "Member Users"
+msgstr ""
+
+#: inc/posttypes/coupon.php:41 inc/widgets/current-package.php:64
+#: templates/account/current-package.php:58
+msgid "Membership"
+msgstr ""
+
+#: inc/admin/register-settings.php:650
+msgid "Membership canceled"
+msgstr ""
+
+#: inc/admin/register-settings.php:665
+msgid "Membership Cancelled on {site_name}"
+msgstr ""
+
+#: install.php:111
+msgid "Membership Checkout"
+msgstr ""
+
+#: install.php:149
+msgid "Membership Checkout Failed"
+msgstr ""
+
+#: inc/admin/register-settings.php:624
+msgid "Membership Confirmed  - Actived Membership"
+msgstr ""
+
+#: install.php:52
+msgid "Membership Dashboard"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:43
+msgid "Membership Package"
+msgstr ""
+
+#: install.php:72 inc/admin/register-settings.php:250
+msgid "Membership Packages Page"
+msgstr ""
+
+#: install.php:130
+msgid "Membership Payment History"
+msgstr ""
+
+#: install.php:92
+msgid "Membership Payment Successfull"
+msgstr ""
+
+#: inc/admin/register-settings.php:676
+msgid "Membership Refunded"
+msgstr ""
+
+#: inc/admin/register-settings.php:691
+msgid "Membership Refunded on {site_name}"
+msgstr ""
+
+#: inc/posttypes/package.php:63
+msgid "membership-packages"
+msgstr ""
+
+#: inc/admin/class-admin-pages.php:36
+msgid "Memberships"
+msgstr ""
+
+#: inc/mixes-functions.php:389
+msgid "Mexican Peso (&#36;)"
+msgstr ""
+
+#: inc/functions.php:57
+msgid "Month"
+msgstr ""
+
+#: inc/admin/metaboxes/class-metabox-payment-actions.php:68
+msgid "Move to Trash"
+msgstr ""
+
+#: inc/country-functions.php:954
+msgid "Murcia"
+msgstr ""
+
+#: templates/checkout/thankyou.php:35
+msgid "My Account"
+msgstr ""
+
+#: inc/country-functions.php:955
+msgid "Navarra"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:43
+msgid "New Category"
+msgstr ""
+
+#: inc/posttypes/coupon.php:45
+msgid "New Coupon"
+msgstr ""
+
+#: inc/core/class-opalmembership-package.php:52
+msgid "New Membership Form"
+msgstr ""
+
+#: inc/admin/register-settings.php:608 inc/admin/register-settings.php:611
+msgid "New membership package purchased - Payment {payment_number}"
+msgstr ""
+
+#: inc/posttypes/package.php:44
+msgid "New Package"
+msgstr ""
+
+#: inc/posttypes/payment.php:42
+msgid "New Payment"
+msgstr ""
+
+#: inc/admin/register-settings.php:597
+msgid "New Payment - New Membership Purchase"
+msgstr ""
+
+#: inc/mixes-functions.php:390
+msgid "New Zealand Dollar (&#36;)"
+msgstr ""
+
+#: inc/admin/class-admin-pages.php:39
+msgid "News categories"
+msgstr ""
+
+#: templates/taxonomy-membership_category.php:22
+#: templates/single-membership_packages.php:17
+#: templates/shortcodes/packages.php:15
+msgid "Next page"
+msgstr ""
+
+#: inc/posttypes/package.php:92
+msgid "No"
+msgstr ""
+
+#: inc/posttypes/coupon.php:49
+msgid "No Coupons found"
+msgstr ""
+
+#: inc/posttypes/coupon.php:50
+msgid "No Coupons found in Trash"
+msgstr ""
+
+#: inc/posttypes/package.php:48
+msgid "No Packages found"
+msgstr ""
+
+#: inc/posttypes/package.php:49
+msgid "No Packages found in Trash"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:170
+msgid "No Payment"
+msgstr ""
+
+#: templates/gateways/gateways_form.php:55
+msgid "No Payment available"
+msgstr ""
+
+#: inc/posttypes/payment.php:46
+msgid "No Payments found"
+msgstr ""
+
+#: inc/posttypes/payment.php:47
+msgid "No Payments found in Trash"
+msgstr ""
+
+#: inc/mixes-functions.php:391
+msgid "Norwegian Krone (Kr.)"
+msgstr ""
+
+#: inc/admin/metaboxes/class-admin-metabox-order-notes.php:72
+#: inc/admin/metaboxes/class-metabox-content-protect.php:72
+#: inc/admin/metaboxes/class-admin-metabox-payment-notes.php:70
+msgid "Note to customer"
+msgstr ""
+
+#: inc/admin/register-settings.php:570
+msgid "Notification For Membership Expired"
+msgstr ""
+
+#: inc/admin/class-admin-pages.php:73
+msgid "Number of users per page:"
+msgstr ""
+
+#: inc/mixes-functions.php:986
+msgid "On Hold"
+msgstr ""
+
+#: inc/posttypes/payment.php:157
+#, php-format
+msgid "On hold <span class=\"count\">(%s)</span>"
+msgid_plural "On hold <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/gateways/stripe.php:344
+msgid "OOP. Process Error"
+msgstr ""
+
+#: inc/posttypes/coupon.php:40 inc/posttypes/coupon.php:52
+msgid "Opal Coupons"
+msgstr ""
+
+#: inc/class-opalmembership-roles.php:49
+#: inc/core/class-opalmembership-roles.php:49
+msgid "Opal Estate Manager"
+msgstr ""
+
+#. Name of the plugin
+msgid "Opal Membership"
+msgstr ""
+
+#: install.php:187
+msgid "Opal Membership Login"
+msgstr ""
+
+#: install.php:168
+msgid "Opal Membership Register"
+msgstr ""
+
+#: inc/posttypes/package.php:39 inc/posttypes/package.php:51
+msgid "Opal Packages"
+msgstr ""
+
+#: inc/posttypes/payment.php:49
+msgid "Opal Payments"
+msgstr ""
+
+#: inc/posttypes/payment.php:37
+msgid "Opal Payments Transactions"
+msgstr ""
+
+#: inc/admin/register-settings.php:706
+msgid "Opalmembership Add-ons Settings"
+msgstr ""
+
+#: inc/admin/register-settings.php:713
+msgid "Opalmembership Licenses"
+msgstr ""
+
+#: inc/admin/register-settings.php:733
+msgid ""
+"Opalmembership will start a new session per user once they have donated. "
+"This option controls the lifetime a user's session is kept alive. An active "
+"session allows users to view donation receipts on your site without having "
+"to be logged in."
+msgstr ""
+
+#. Base ID
+#: inc/widgets/current-package.php:12
+msgid "OpalMembership: Current Package"
+msgstr ""
+
+#. Base ID
+#: inc/widgets/quick-purchase.php:12
+msgid "OpalMembership: Quick Purchase"
+msgstr ""
+
+#: inc/admin/register-settings.php:532
+msgid "Opalticket Email Settings"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:131
+#, php-format
+msgctxt "Order number by X"
+msgid "%s by %s"
+msgstr ""
+
+#: inc/posttypes/payment.php:168
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr ""
+
+#: inc/posttypes/payment.php:160
+msgctxt "Order status"
+msgid "Completed"
+msgstr ""
+
+#: inc/posttypes/payment.php:184
+msgctxt "Order status"
+msgid "Failed"
+msgstr ""
+
+#: inc/posttypes/payment.php:152
+msgctxt "Order status"
+msgid "On hold"
+msgstr ""
+
+#: inc/posttypes/payment.php:134
+msgctxt "Order status"
+msgid "Pending payment"
+msgstr ""
+
+#: inc/posttypes/payment.php:144
+msgctxt "Order status"
+msgid "Processing"
+msgstr ""
+
+#: inc/posttypes/payment.php:176
+msgctxt "Order status"
+msgid "Refunded"
+msgstr ""
+
+#: inc/country-functions.php:956
+msgid "Ourense"
+msgstr ""
+
+#: inc/posttypes/package.php:40 templates/checkout/shoppingcart.php:29
+#: templates/account/history.php:14
+#: inc/admin/metaboxes/views/html-order-items.php:10
+#: inc/admin/metaboxes/views/html-payment-items.php:10
+msgid "Package"
+msgstr ""
+
+#: inc/posttypes/package.php:158
+msgid "Package Information"
+msgstr ""
+
+#: templates/account/payment-detail.php:76
+#: inc/admin/metaboxes/views/html-order-items.php:11
+#: inc/admin/metaboxes/views/html-payment-items.php:11
+msgid "Package Name"
+msgstr ""
+
+#: inc/class-opalmembership-email.php:145
+msgid "Package:"
+msgstr ""
+
+#: templates/taxonomy-membership_category.php:23
+#: templates/single-membership_packages.php:18
+#: templates/shortcodes/packages.php:16
+msgid "Page"
+msgstr ""
+
+#: inc/country-functions.php:957
+msgid "Palencia"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:38
+msgid "Parent Category"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:39
+msgid "Parent Category:"
+msgstr ""
+
+#: templates/account/register-form.php:51 templates/account/login-form.php:31
+msgid "Password"
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:56
+#: inc/class-opalmembership-form-handler.php:142
+msgid "Password is required."
+msgstr ""
+
+#: inc/mixes-functions.php:1066
+msgid "Password is requried."
+msgstr ""
+
+#: templates/checkout/thankyou.php:33
+msgid "Pay"
+msgstr ""
+
+#: inc/gateways/pp_standard.php:68
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don’t have a PayPal "
+"account."
+msgstr ""
+
+#: inc/posttypes/payment.php:38
+msgid "Payment "
+msgstr ""
+
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:178
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:186
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:199
+#, php-format
+msgid "Payment %s via IPN."
+msgstr ""
+
+#: inc/admin/register-settings.php:107 inc/admin/register-settings.php:405
+#: templates/gateways/gateways_form.php:23
+msgid "Payment Gateways"
+msgstr ""
+
+#: inc/admin/register-settings.php:325
+msgid "Payment History Page"
+msgstr ""
+
+#: templates/account/current-package.php:45
+#: inc/admin/metaboxes/views/html-payment-data.php:16
+msgid "Payment ID"
+msgstr ""
+
+#: inc/gateways/stripe.php:300
+msgid "Payment ID "
+msgstr ""
+
+#: inc/posttypes/payment.php:113
+#: inc/admin/metaboxes/views/html-order-data.php:9
+#: inc/admin/metaboxes/views/html-payment-data.php:30
+msgid "Payment Information"
+msgstr ""
+
+#: templates/checkout/thankyou.php:58
+msgid "Payment Method:"
+msgstr ""
+
+#: templates/checkout/thankyou.php:45
+msgid "Payment Number:"
+msgstr ""
+
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:165
+#, php-format
+msgid "Payment pending: %s"
+msgstr ""
+
+#: inc/class-opalmembership-checkout.php:298 inc/gateways/pp_standard.php:229
+#: inc/gateways/cod.php:66 inc/gateways/stripe.php:307
+#: inc/gateways/stripe.php:309
+msgid "Payment to be made upon delivery."
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:41
+msgid "Payment Transaction"
+msgstr ""
+
+#: inc/gateways/pp_standard.php:110
+msgid "PayPal Email"
+msgstr ""
+
+#: inc/gateways/pp_standard.php:116
+msgid "PayPal Page Style"
+msgstr ""
+
+#: inc/gateways/pp_standard.php:103
+msgid "PayPal Standard"
+msgstr ""
+
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:162
+#, php-format
+msgid "PayPal Transaction ID: %s"
+msgstr ""
+
+#: inc/gateways/pp_standard.php:66
+msgid "Paypay Standard"
+msgstr ""
+
+#: inc/mixes-functions.php:984
+msgid "Pending"
+msgstr ""
+
+#: inc/posttypes/payment.php:208
+#, php-format
+msgid "pending <span class=\"count\">(%s)</span>"
+msgid_plural "Inactive <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/posttypes/payment.php:139
+#, php-format
+msgid "Pending payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/posttypes/coupon.php:107
+msgid "Percenatage"
+msgstr ""
+
+#: inc/mixes-functions.php:392
+msgid "Philippine Pesos"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:106
+msgctxt "placeholder"
+msgid "Apartment, suite, unit etc. (optional)"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:99
+msgctxt "placeholder"
+msgid "Street address"
+msgstr ""
+
+#: templates/checkout/thankyou.php:27
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: templates/checkout/thankyou.php:29
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: inc/admin/register-settings.php:805
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support."
+msgstr ""
+
+#: inc/mixes-functions.php:1057
+msgid "Please enter a valid account username."
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:102
+msgid "Please enter your address 1"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:109
+msgid "Please enter your address 2"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:95
+msgid "Please enter your company"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:141
+msgid "Please enter your Country"
+msgstr ""
+
+#: inc/class-opalmembership-ajax.php:155 inc/class-opalmembership-ajax.php:169
+msgid "Please enter your coupon to get a discount"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:75
+msgid "Please enter your email"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:83
+msgid "Please enter your first name"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:90
+msgid "Please enter your last name"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:134
+msgid "Please enter your Postcode"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:125
+msgid "Please enter your State"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:116
+msgid "Please enter your Town/ City"
+msgstr ""
+
+#: inc/mixes-functions.php:393
+msgid "Polish Zloty"
+msgstr ""
+
+#: inc/country-functions.php:958
+msgid "Pontevedra"
+msgstr ""
+
+#: inc/admin/register-settings.php:470
+msgid "Post Types"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:128
+#: inc/core/class-opalmembership-address.php:129
+msgid "Postcode / Zip"
+msgstr ""
+
+#: inc/mixes-functions.php:378
+msgid "Pounds Sterling (&pound;)"
+msgstr ""
+
+#: templates/taxonomy-membership_category.php:21
+#: templates/single-membership_packages.php:16
+#: templates/shortcodes/packages.php:14
+msgid "Previous page"
+msgstr ""
+
+#: inc/posttypes/package.php:97 templates/checkout/shoppingcart.php:30
+#: templates/account/history.php:16
+msgid "Price"
+msgstr ""
+
+#: inc/class-opalmembership-email.php:146
+msgid "Price:"
+msgstr ""
+
+#: inc/admin/metaboxes/class-admin-metabox-order-notes.php:71
+#: inc/admin/metaboxes/class-metabox-content-protect.php:71
+#: inc/admin/metaboxes/class-admin-metabox-payment-notes.php:69
+msgid "Private note"
+msgstr ""
+
+#: inc/mixes-functions.php:985
+msgid "Processing"
+msgstr ""
+
+#: inc/posttypes/payment.php:149
+#, php-format
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Processing <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/pricing-table.php:34
+#, php-format
+msgid "Property Submit Limit: %s"
+msgstr ""
+
+#: templates/account/current-package.php:47
+msgid "Purchased Date"
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:145
+msgid "Re-Password is not match."
+msgstr ""
+
+#: templates/content-single-package.php:14
+msgid "Recommend"
+msgstr ""
+
+#: inc/posttypes/package.php:111
+msgid "Recurring"
+msgstr ""
+
+#: inc/mixes-functions.php:990
+msgid "Refunded"
+msgstr ""
+
+#: inc/posttypes/payment.php:181
+#, php-format
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/account/register-form.php:29
+#: templates/account/register-form.php:68
+msgid "Register"
+msgstr ""
+
+#: templates/account/login-form.php:51
+msgid "Register now!"
+msgstr ""
+
+#: inc/admin/register-settings.php:273
+msgid "Register Page"
+msgstr ""
+
+#: templates/account/login-form.php:39
+msgid "Remember me"
+msgstr ""
+
+#: inc/admin/register-settings.php:749
+msgid "Remove All Data on Uninstall?"
+msgstr ""
+
+#: templates/account/register-form.php:56
+msgid "Repeat-Password"
+msgstr ""
+
+#: inc/mixes-functions.php:402
+msgid "Russian Rubles"
+msgstr ""
+
+#: inc/country-functions.php:959
+msgid "Salamanca"
+msgstr ""
+
+#: inc/posttypes/package.php:104
+msgid "Saleprice"
+msgstr ""
+
+#: inc/country-functions.php:960
+msgid "Santa Cruz de Tenerife"
+msgstr ""
+
+#: inc/admin/metaboxes/class-metabox-payment-actions.php:74
+#, php-format
+msgid "Save %s"
+msgstr ""
+
+#: inc/admin/register-settings.php:1144
+msgid "Save Settings"
+msgstr ""
+
+#: inc/admin/metaboxes/class-metabox-payment-actions.php:74
+#, php-format
+msgid "Save/update the %s"
+msgstr ""
+
+#: inc/admin/register-settings.php:767
+msgid "Script Loading"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:36
+msgid "Search Categories"
+msgstr ""
+
+#: inc/posttypes/coupon.php:48
+msgid "Search Coupon"
+msgstr ""
+
+#: inc/posttypes/package.php:47
+msgid "Search Package"
+msgstr ""
+
+#: inc/posttypes/payment.php:45
+msgid "Search Payment"
+msgstr ""
+
+#: inc/country-functions.php:961
+msgid "Segovia"
+msgstr ""
+
+#: inc/mixes-functions.php:751
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: inc/widgets/quick-purchase.php:44
+msgid "Select A Package"
+msgstr ""
+
+#: inc/mixes-functions.php:793
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: inc/posttypes/coupon.php:108
+msgid "Select discount type"
+msgstr ""
+
+#: inc/posttypes/coupon.php:157
+msgid "Select Package use this coupon."
+msgstr ""
+
+#: inc/admin/register-settings.php:725
+msgid "Session Control"
+msgstr ""
+
+#: inc/admin/register-settings.php:732
+msgid "Session Lifetime"
+msgstr ""
+
+#: inc/posttypes/package.php:84
+msgid "Set Maximum purchased for each user, default limited -1"
+msgstr ""
+
+#: inc/admin/register-settings.php:243
+msgid "Set number of grid column to display list of membership package"
+msgstr ""
+
+#: inc/admin/class-admin-pages.php:43
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/register-settings.php:841
+msgid "Settings updated."
+msgstr ""
+
+#: inc/country-functions.php:962
+msgid "Sevilla"
+msgstr ""
+
+#: templates/checkout/shoppingcart.php:26
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:137
+msgid "Show more details"
+msgstr ""
+
+#: inc/class-opalmembership-shortcodes.php:73
+msgid "Sign Up"
+msgstr ""
+
+#: inc/mixes-functions.php:394
+msgid "Singapore Dollar (&#36;)"
+msgstr ""
+
+#: inc/country-functions.php:963
+msgid "Soria"
+msgstr ""
+
+#: inc/posttypes/coupon.php:125
+msgid "Start Date"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:120
+#: inc/core/class-opalmembership-address.php:121
+msgid "State / County"
+msgstr ""
+
+#: templates/account/current-package.php:49
+#: templates/account/payment-detail.php:30 templates/account/history.php:15
+msgid "Status"
+msgstr ""
+
+#: inc/admin/metaboxes/class-metabox-payment-actions.php:49
+msgid "Status:"
+msgstr ""
+
+#: inc/gateways/stripe.php:78
+msgid "Stripe"
+msgstr ""
+
+#: inc/gateways/stripe.php:269
+msgid "Stripe counld not create tooken for your Credit Card Information."
+msgstr ""
+
+#: inc/gateways/stripe.php:102
+msgid "Stripe Setting"
+msgstr ""
+
+#: inc/admin/register-settings.php:557
+msgid "Success Message"
+msgstr ""
+
+#: inc/admin/register-settings.php:302
+msgid "Success Page"
+msgstr ""
+
+#: inc/mixes-functions.php:395
+msgid "Swedish Krona"
+msgstr ""
+
+#: inc/mixes-functions.php:396
+msgid "Swiss Franc"
+msgstr ""
+
+#: inc/mixes-functions.php:952
+msgid "System"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:233
+msgid "System could not delete user."
+msgstr ""
+
+#: inc/admin/register-settings.php:799 inc/admin/register-settings.php:804
+msgid "System Info"
+msgstr ""
+
+#: inc/mixes-functions.php:397
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: inc/country-functions.php:964
+msgid "Tarragona"
+msgstr ""
+
+#: inc/admin/register-settings.php:506
+msgid "Taxonomies"
+msgstr ""
+
+#: inc/country-functions.php:965
+msgid "Teruel"
+msgstr ""
+
+#: inc/admin/register-settings.php:415
+msgid "Test Mode"
+msgstr ""
+
+#: inc/gateways/stripe.php:116
+msgid "Test Publish Key"
+msgstr ""
+
+#: inc/gateways/stripe.php:110
+msgid "Test Secret Key"
+msgstr ""
+
+#: inc/mixes-functions.php:398
+msgid "Thai Baht (&#3647;)"
+msgstr ""
+
+#: templates/checkout/thankyou.php:41 templates/checkout/thankyou.php:72
+msgid "Thank you. Your payment has been received."
+msgstr ""
+
+#: inc/core/class-opalmembership-coupon.php:49
+#: inc/core/class-opalmembership-coupon.php:53
+msgid "The coupon is not valid, please try with other"
+msgstr ""
+
+#: inc/admin/register-settings.php:635
+msgid ""
+"The email subject a user should receive when their booking has been "
+"confirmed."
+msgstr ""
+
+#: inc/admin/register-settings.php:660 inc/admin/register-settings.php:686
+msgid ""
+"The email subject a user should receive when their booking has been rejected."
+msgstr ""
+
+#: inc/admin/register-settings.php:606
+msgid ""
+"The email subject a user should receive when they make an initial booking "
+"request."
+msgstr ""
+
+#: inc/admin/register-settings.php:580
+msgid "The email subject for admin notifications."
+msgstr ""
+
+#: inc/admin/register-settings.php:489
+msgid ""
+"The excerpt is an optional summary or description of a donation form; in "
+"short, a summary as to why the user should opalmembership."
+msgstr ""
+
+#: inc/admin/register-settings.php:495
+msgid ""
+"The Featured Image is an image that is chosen as the representative image "
+"for donation form. The display of this image is largely up to the theme. If "
+"you do not wish to use the featured image you can disable it using this "
+"option."
+msgstr ""
+
+#: inc/admin/register-settings.php:544
+msgid ""
+"The name donation receipts are said to come from. This should probably be "
+"your site or shop name."
+msgstr ""
+
+#: inc/class-opalmembership-ajax.php:85
+msgid ""
+"The package was added successfull, please wait for minute to switch payment "
+"process"
+msgstr ""
+
+#: inc/class-opalmembership-ajax.php:64 inc/class-opalmembership-ajax.php:88
+msgid "The package was not existed, please try to select other"
+msgstr ""
+
+#: inc/class-opalmembership-checkout.php:292
+msgid "The payment is not complete"
+msgstr ""
+
+#: inc/admin/register-settings.php:501
+msgid ""
+"The sidebar allows you to add additional widget to the Opalmembership single "
+"form view. If you don't plan on using the sidebar you may disable it with "
+"this option."
+msgstr ""
+
+#: inc/admin/register-settings.php:377
+msgid "The symbol (typically , or .) to separate thousands"
+msgstr ""
+
+#: inc/admin/register-settings.php:384 inc/admin/register-settings.php:392
+msgid "The symbol (usually , or .) to separate decimal points"
+msgstr ""
+
+#: inc/admin/metaboxes/class-admin-metabox-order-notes.php:57
+#: inc/admin/metaboxes/class-metabox-content-protect.php:57
+#: inc/admin/metaboxes/class-admin-metabox-payment-notes.php:55
+msgid "There are no notes yet."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"There are plenty of WordPress Membership Plugins but not all of them have "
+"the specific features that you may need for creating your membership site."
+msgstr ""
+
+#: inc/core/class-opalmembership-coupon.php:67
+msgid "This coupon has expired"
+msgstr ""
+
+#: inc/core/class-opalmembership-coupon.php:77
+#: inc/core/class-opalmembership-coupon.php:91
+msgid "This coupon is not applied for this package"
+msgstr ""
+
+#: inc/core/class-opalmembership-coupon.php:72
+msgid "This coupon is not started"
+msgstr ""
+
+#: inc/admin/register-settings.php:430
+msgid "This is the gateway that will be selected by default."
+msgstr ""
+
+#: inc/admin/register-settings.php:303
+msgid ""
+"This is the page donators are sent to after completing their donations. The "
+"<code>[opalmembership_receipt]</code> shortcode should be on this page."
+msgstr ""
+
+#: inc/admin/register-settings.php:251
+msgid ""
+"This is the page show list of packages. The <code>[opalmembership_packages]"
+"</code> shortcode should be on this page."
+msgstr ""
+
+#: inc/admin/register-settings.php:263
+msgid ""
+"This is the page show up account manager. The <code>"
+"[opalmembership_dashboard]</code> shortcode should be on this page."
+msgstr ""
+
+#: inc/admin/register-settings.php:292
+msgid ""
+"This is the page show up login form. The <code>[opalmembership_login_form]"
+"</code> shortcode should be on this page."
+msgstr ""
+
+#: inc/admin/register-settings.php:274
+msgid ""
+"This is the page show up register form. The <code>"
+"[opalmembership_register_form]</code> shortcode should be on this page."
+msgstr ""
+
+#: inc/admin/register-settings.php:337
+msgid "This option allow guest checkout without login your site."
+msgstr ""
+
+#: inc/admin/register-settings.php:285
+msgid ""
+"This option will loggin user after they register completed, if it checked."
+msgstr ""
+
+#: inc/admin/register-settings.php:315
+msgid ""
+"This page shows a complete donation history for the current user. The <code>"
+"[opalmembership_checkout]</code> shortcode should be on this page."
+msgstr ""
+
+#: inc/admin/register-settings.php:326
+msgid ""
+"This page shows a complete payments history for the current user. The <code>"
+"[opalmembership_history]</code> shortcode should be on this page."
+msgstr ""
+
+#: inc/admin/register-settings.php:376
+msgid "Thousands Separator"
+msgstr ""
+
+#: templates/account/history.php:11
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/quick-purchase.php:100 inc/widgets/current-package.php:113
+msgid "Title:"
+msgstr ""
+
+#: inc/country-functions.php:966
+msgid "Toledo"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:46 templates/checkout/shoppingcart.php:70
+#: templates/account/current-package.php:48
+#: templates/account/payment-detail.php:77
+#: templates/account/payment-detail.php:108
+#: inc/admin/metaboxes/views/html-order-items.php:12
+#: inc/admin/metaboxes/views/html-order-items.php:47
+#: inc/admin/metaboxes/views/html-payment-items.php:12
+#: inc/admin/metaboxes/views/html-payment-items.php:48
+msgid "Total"
+msgstr ""
+
+#: templates/checkout/thankyou.php:53
+msgid "Total:"
+msgstr ""
+
+#: inc/core/class-opalmembership-address.php:112
+#: inc/core/class-opalmembership-address.php:113
+msgid "Town / City"
+msgstr ""
+
+#: templates/account/payment-detail.php:40
+#: inc/admin/metaboxes/views/html-order-data.php:18
+#: inc/admin/metaboxes/views/html-payment-data.php:39
+msgid "Transaction ID"
+msgstr ""
+
+#: inc/mixes-functions.php:400
+msgid "Turkish Lira (&#8378;)"
+msgstr ""
+
+#: inc/mixes-functions.php:365
+msgid "Undefined Payment"
+msgstr ""
+
+#: templates/checkout/thankyou.php:23
+msgid ""
+"Unfortunately your payment cannot be processed as the originating "
+"bank/merchant has declined your transaction."
+msgstr ""
+
+#: inc/functions.php:23
+msgid "Unknown Package"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:73
+msgid "Unpublished"
+msgstr ""
+
+#: inc/taxonomies/package-taxonomy.php:41
+msgid "Update Category"
+msgstr ""
+
+#: inc/mixes-functions.php:757
+msgid "Update country"
+msgstr ""
+
+#: templates/account/current-package.php:67
+msgid "Update Now"
+msgstr ""
+
+#: inc/mixes-functions.php:376
+msgid "US Dollars (&#36;)"
+msgstr ""
+
+#: inc/posttypes/coupon.php:141
+msgid "Usage Limit"
+msgstr ""
+
+#: inc/admin/metaboxes/views/html-payment-data.php:21
+msgid "User"
+msgstr ""
+
+#: inc/admin/class-opalmembership-member-table.php:49
+#: templates/account/register-form.php:41
+msgid "Username"
+msgstr ""
+
+#: inc/mixes-functions.php:1061
+msgid "Username is already exists."
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:37
+#: inc/class-opalmembership-form-handler.php:128
+msgid "Username is required."
+msgstr ""
+
+#: templates/account/login-form.php:26
+msgid "Username or email address"
+msgstr ""
+
+#: inc/admin/class-admin-pages.php:38
+msgid "Users"
+msgstr ""
+
+#: inc/country-functions.php:967
+msgid "Valencia"
+msgstr ""
+
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:140
+#, php-format
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr ""
+
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:129
+#, php-format
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr ""
+
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:151
+#, php-format
+msgid ""
+"Validation error: PayPal IPN response from a different email address (%s)."
+msgstr ""
+
+#: inc/country-functions.php:968
+msgid "Valladolid"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:99
+msgid "Via"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:151 templates/account/history.php:35
+msgid "View"
+msgstr ""
+
+#: inc/posttypes/coupon.php:47
+msgid "View Coupon"
+msgstr ""
+
+#: templates/account/current-package.php:51
+msgid "View more payments"
+msgstr ""
+
+#: inc/posttypes/package.php:46
+msgid "View Packages"
+msgstr ""
+
+#: inc/widgets/quick-purchase.php:54
+msgid "View Packages Detail"
+msgstr ""
+
+#: inc/posttypes/payment.php:44
+msgid "View Payment"
+msgstr ""
+
+#: inc/functions.php:56
+msgid "Week"
+msgstr ""
+
+#: inc/admin/register-settings.php:344
+msgid "Where does your site operate from?"
+msgstr ""
+
+#: inc/admin/register-settings.php:416
+msgid ""
+"While in test mode no live transactions are processed. To fully use test "
+"mode, you must have a sandbox (test) account for the payment gateway you are "
+"testing."
+msgstr ""
+
+#: templates/account/current-package.php:65
+msgid "Would you like to upgrade your membership?"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPOPAL"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:76
+msgid "Y/m/d"
+msgstr ""
+
+#: inc/admin/class-admin-posttype.php:75
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: inc/functions.php:58
+msgid "Year"
+msgstr ""
+
+#: inc/posttypes/package.php:93
+msgid "Yes"
+msgstr ""
+
+#: templates/account/register-form.php:22 templates/account/login-form.php:7
+msgid "You are currently logged in."
+msgstr ""
+
+#: templates/account/history.php:43
+msgid "You have not purchase any package yet!"
+msgstr ""
+
+#: inc/widgets/quick-purchase.php:62 inc/widgets/current-package.php:74
+#: templates/account/current-package.php:75
+msgid "You have not purchased any package now."
+msgstr ""
+
+#: inc/class-opalmembership-checkout.php:208
+msgid ""
+"You have too limited to purchase this package, please try to purchase other."
+msgstr ""
+
+#: templates/account/dashboard.php:20
+msgid "You must be logged in before."
+msgstr ""
+
+#: templates/checkout/checkout-form.php:27
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: templates/checkout/login-form.php:18
+msgid "You must be logged in to process checkout."
+msgstr ""
+
+#: inc/admin/register-settings.php:585
+msgid "Your membership is expired"
+msgstr ""
+
+#: templates/account/membership-warning.php:4
+msgid "Your membership package is expired please upgrade now"
+msgstr ""
+
+#: inc/admin/register-settings.php:634 inc/admin/register-settings.php:637
+msgid "Your Payment - ID {payment_number} is Confirmed"
+msgstr ""
+
+#: inc/country-functions.php:970
+msgid "Zamora"
+msgstr ""
+
+#: inc/country-functions.php:971
+msgid "Zaragoza"
+msgstr ""
