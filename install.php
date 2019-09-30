@@ -141,23 +141,23 @@ function opalmembership_install(){
 	}
 
 	// Checks if the Failed Page option exists AND that the page exists
-	if ( ! get_post( opalmembership_get_option( 'failure_page' ) ) ) {
-
-		// Purchase Confirmation (Failed) Page
-		$checkout_faile_page = wp_insert_post(
-			array(
-				'post_title'     => esc_html__( 'Membership Checkout Failed', 'opalmembership' ),
-				'post_content'   => esc_html__( '[opalmembership_checkout_failed]', 'opalmembership' ),
-				'post_status'    => 'publish',
-				'post_author'    => 1,
-				'post_type'      => 'page',
-				'comment_status' => 'closed'
-			)
-		);
-
-		// Store our page IDs
-		$options['checkout_faile_page'] = $checkout_faile_page;
-	}
+	// if ( ! get_post( opalmembership_get_option( 'failure_page' ) ) ) {
+	//
+	// 	// Purchase Confirmation (Failed) Page
+	// 	$checkout_faile_page = wp_insert_post(
+	// 		array(
+	// 			'post_title'     => esc_html__( 'Membership Checkout Failed', 'opalmembership' ),
+	// 			'post_content'   => esc_html__( '[opalmembership_checkout_failed]', 'opalmembership' ),
+	// 			'post_status'    => 'publish',
+	// 			'post_author'    => 1,
+	// 			'post_type'      => 'page',
+	// 			'comment_status' => 'closed'
+	// 		)
+	// 	);
+	//
+	// 	// Store our page IDs
+	// 	$options['checkout_faile_page'] = $checkout_faile_page;
+	// }
 
 	// Checks if the Register Page option exists AND that the page exists
 	if ( ! get_post( opalmembership_get_option( 'register_page' ) ) ) {
