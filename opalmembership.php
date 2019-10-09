@@ -3,7 +3,7 @@
  * Plugin Name: Opal Membership
  * Plugin URI: http://www.wpopal.com/plugins/membership
  * Description: There are plenty of WordPress Membership Plugins but not all of them have the specific features that you may need for creating your membership site.
- * Version: 1.1.5
+ * Version: 1.1.6
  * Author: WPOPAL
  * Author URI: http://www.wpopal.com
  * Requires at least: 4.6
@@ -206,6 +206,8 @@ if ( ! class_exists( 'OpalMembership' ) ) {
 			if ( file_exists( WP_PLUGIN_DIR . '/cmb2/init.php' ) ) {
 				require_once WP_PLUGIN_DIR . '/cmb2/init.php';
 				add_filter( 'cmb2_meta_box_url', [ $this, 'setup_cmb2_url' ] );
+			} elseif ( file_exists( OPALMEMBERSHIP_PLUGIN_DIR . 'inc/vendors/cmb2/init.php' ) ) {
+				require_once OPALMEMBERSHIP_PLUGIN_DIR . 'inc/vendors/cmb2/init.php';
 			}
 
 
