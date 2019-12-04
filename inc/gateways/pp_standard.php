@@ -63,7 +63,7 @@ class Opalmembership_Gateway_Pp_standard extends Opalmembership_Abstract_Gateway
 	 */
 	public function __construct() {
 
-		$this->title       = esc_html__( 'Paypay Standard', 'opalmembership' );
+		$this->title       = esc_html__( 'PayPal Standard', 'opalmembership' );
 		$this->icon        = apply_filters( 'opalmembership_pp_standard_icon', '' );
 		$this->description = esc_html__( 'Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.', 'opalmembership' );
 

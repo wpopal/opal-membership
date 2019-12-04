@@ -1861,7 +1861,7 @@ msgid "%s Actions"
 msgstr ""
 
 #: inc/gateways/pp_standard.php:66
-msgid "Paypay Standard"
+msgid "PayPal Standard"
 msgstr ""
 
 #: inc/gateways/pp_standard.php:68
