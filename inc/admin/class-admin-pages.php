@@ -35,7 +35,7 @@ class Opalmembership_Admin_Pages {
 		$icon = OPALMEMBERSHIP_PLUGIN_URL.'assets/icon.png';
 		add_menu_page( esc_html__( 'Memberships', 'opalmembership' ), esc_html__( 'Memberships', 'opalmembership' ), 'edit_posts', 'opalmembership', null, $icon , 55 );
 		//Users
-		$users_page = add_submenu_page( 'opalmembership', esc_html__( 'Users', 'opalmembership' ), esc_html__( 'Member Users', 'opalmembership' ), 'manage_options', 'opalmembership-users', array( $this, 'customers_page'),'dashicons-editor-help' );
+		$users_page = add_submenu_page( 'opalmembership', esc_html__( 'Users', 'opalmembership' ), esc_html__( 'Member Users', 'opalmembership' ), 'manage_options', 'opalmembership-users', array( $this, 'customers_page') );
 		add_submenu_page('opalmembership', esc_html__( 'News categories', 'opalmembership' ), esc_html__( 'Categories', 'opalmembership' ), 'edit_posts', 'edit-tags.php?taxonomy=membership_category&post_type=membership_packages',null );
 
 	 
