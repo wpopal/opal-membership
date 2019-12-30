@@ -285,7 +285,6 @@ class Opalmembership_Plugin_Settings {
 							'desc'    => esc_html__( 'This option will loggin user after they register completed, if it checked.', 'opalmembership' ),
 							'id'      => 'login_user',
 							'type'    => 'checkbox',
-							'default'	=> 1
 						),
 						array(
 							'name'    => esc_html__( 'Login Page', 'opalmembership' ),
@@ -337,7 +336,6 @@ class Opalmembership_Plugin_Settings {
 							'desc'    => esc_html__( 'This option allow guest checkout without login your site.', 'opalmembership' ),
 							'id'      => 'enable_guest_checkout',
 							'type'    => 'checkbox',
-							'default'	=> 0
 						),
 						array(
 							'name'    => esc_html__( 'Base Country', 'opalmembership' ),
@@ -416,23 +414,19 @@ class Opalmembership_Plugin_Settings {
 							'desc' => esc_html__( 'While in test mode no live transactions are processed. To fully use test mode, you must have a sandbox (test) account for the payment gateway you are testing.', 'opalmembership' ),
 							'id'   => 'test_mode',
 							'type' => 'checkbox',
-							'default' => '1'
 						),
 						array(
 							'name' => esc_html__( 'Enabled Gateways', 'opalmembership' ),
 							'desc' => esc_html__( 'Choose the payment gateways you would like enabled.', 'opalmembership' ),
 							'id'   => 'gateways',
 							'type' => 'opalmembership_enabled_gateways',
-							'default' => '1'
 						),
 						array(
 							'name' => esc_html__( 'Default Gateway', 'opalmembership' ),
 							'desc' => esc_html__( 'This is the gateway that will be selected by default.', 'opalmembership' ),
 							'id'   => 'default_gateway',
 							'type' => 'opalmembership_default_gateway',
-							'default' => '1'
 						),
-
 					)
 				)
 			),
