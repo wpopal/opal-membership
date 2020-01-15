@@ -190,31 +190,25 @@ class Opalmembership_Plugin_Settings {
 		$list_tags = '<td>
 				<p class="tags-description">Use the following tags to automatically add booking information to the emails. Tags labeled with an asterisk (*) can be used in the email subject as well.</p>
 				<div class="rtb-template-tags-box">
-					<strong>{payment_number}</strong> Email of the user who made the booking
+					<strong>{payment_number}</strong> The payment ID
 				</div>
 				<div class="rtb-template-tags-box">
-					<strong>{payment_link}</strong> Email of the user who made the booking
+					<strong>{payment_link}</strong> The edit link of payment (for Admin)
 				</div>
 				<div class="rtb-template-tags-box">
-					<strong>{package_membership}</strong> Email of the user who made the booking
-				</div>
-
-				<div class="rtb-template-tags-box">
-					<strong>{user_email}</strong> Email of the user who made the booking
+					<strong>{package_membership}</strong> The package detail
 				</div>
 				<div class="rtb-template-tags-box">
-					<strong>{user_name}</strong> * Name of the user who made the booking
+					<strong>{user_email}</strong> The email of the user who made the booking
 				</div>
-			
 				<div class="rtb-template-tags-box">
-					<strong>{date}</strong> * Date and time of the booking
+					<strong>{user_name}</strong> The name of the user who made the booking
 				</div>
-
 				<div class="rtb-template-tags-box">
 					<strong>{site_name}</strong> The name of this website
 				</div>
 				<div class="rtb-template-tags-box">
-					<strong>{site_link}</strong> A link to this website
+					<strong>{site_link}</strong> The website link
 				</div>
 				<div class="rtb-template-tags-box">
 					<strong>{current_time}</strong> Current date and time
