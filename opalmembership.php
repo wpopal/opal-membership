@@ -3,7 +3,7 @@
  * Plugin Name: Opal Membership
  * Plugin URI: http://www.wpopal.com/plugins/membership
  * Description: There are plenty of WordPress Membership Plugins but not all of them have the specific features that you may need for creating your membership site.
- * Version: 1.1.9
+ * Version: 1.2.0
  * Author: WPOPAL
  * Author URI: http://www.wpopal.com
  * Requires at least: 4.6

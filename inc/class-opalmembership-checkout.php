@@ -180,9 +180,17 @@ class Opalmembership_Checkout {
 		if ( isset( $this->post['payment_method'] ) ) {
 			$this->actived_gateway = $this->post['payment_method'];
 			$payment_info          = isset( $this->post['payment-info'] ) ? $this->post['payment-info'] : [];
-
 			$payment = OpalMembership_Payment_gateways::getInstance()->gateway( $this->actived_gateway );
-			$check   = array_merge( $check, $payment->validate( $payment_info ) );
+			$purchase = opalmembership_get_purchase_session();
+
+			// Check if free package.
+			if ( 0 == $purchase['cart']['price'] ) {
+				$payment_valid = [];
+			} else {
+				$payment_valid = $payment->validate( $payment_info );
+			}
+
+			$check   = array_merge( $check, $payment_valid );
 		}
 
 		OpalMembership()->session()->set( 'opalmembership_valid_checkout_info', empty( $check ) );
