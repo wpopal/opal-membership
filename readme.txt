@@ -1,10 +1,10 @@
 === Opal Membership ===
-Contributors: wpopal
+Contributors: wpopal, ndoublehwp
 Donate link: http://www.wpopal.com/
 Tags:  community, member, opalestate_addon, profile, ecommerce, subscription, membership, user
 Requires at least: 5.0
 Tested up to: 5.3.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 

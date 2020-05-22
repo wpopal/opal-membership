@@ -180,8 +180,8 @@ class Opalmembership_Checkout {
 		if ( isset( $this->post['payment_method'] ) ) {
 			$this->actived_gateway = $this->post['payment_method'];
 			$payment_info          = isset( $this->post['payment-info'] ) ? $this->post['payment-info'] : [];
-			$payment = OpalMembership_Payment_gateways::getInstance()->gateway( $this->actived_gateway );
-			$purchase = opalmembership_get_purchase_session();
+			$payment               = OpalMembership_Payment_gateways::getInstance()->gateway( $this->actived_gateway );
+			$purchase              = opalmembership_get_purchase_session();
 
 			// Check if free package.
 			if ( 0 == $purchase['cart']['price'] ) {
@@ -190,7 +190,7 @@ class Opalmembership_Checkout {
 				$payment_valid = $payment->validate( $payment_info );
 			}
 
-			$check   = array_merge( $check, $payment_valid );
+			$check = array_merge( $check, $payment_valid );
 		}
 
 		OpalMembership()->session()->set( 'opalmembership_valid_checkout_info', empty( $check ) );
@@ -246,7 +246,7 @@ class Opalmembership_Checkout {
 				'date'          => time(),
 				'user_email'    => sanitize_text_field( $this->billing_fields['email'] ),
 				'purchase_key'  => rand(),
-				'currency'      => "USD",
+				'currency'      => opalmembership_get_currency(),
 				'package_title' => $purchase['cart']['package_title'],
 				'package_id'    => $purchase['cart']['package_id'],
 				'billing_info'  => $this->billing_fields,

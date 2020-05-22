@@ -346,7 +346,7 @@ class Opalmembership_Plugin_Settings {
 							'id'   => 'opalmembership_title_general_settings_2'
 						),
 						array(
-							'name'    => esc_html__( 'Currency', 'cmb' ),
+							'name'    => esc_html__( 'Currency', 'opalmembership' ),
 							'desc'    => 'Choose your currency. Note that some payment gateways have currency restrictions.',
 							'id'      => 'currency',
 							'type'    => 'select',
@@ -354,7 +354,7 @@ class Opalmembership_Plugin_Settings {
 							'default' => 'USD',
 						),
 						array(
-							'name'    => esc_html__( 'Currency Position', 'cmb' ),
+							'name'    => esc_html__( 'Currency Position', 'opalmembership' ),
 							'desc'    => 'Choose the position of the currency sign.',
 							'id'      => 'currency_position',
 							'type'    => 'select',

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Opal Membership\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 03:27+0000\n"
+"POT-Creation-Date: 2020-05-22 03:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -23,7 +23,7 @@ msgstr ""
 msgid "[opalmembership_dashboard]"
 msgstr ""
 
-#: install.php:72 inc/admin/register-settings.php:250
+#: install.php:72 inc/admin/register-settings.php:244
 msgid "Membership Packages Page"
 msgstr ""
 
@@ -53,14 +53,6 @@ msgstr ""
 
 #: install.php:131
 msgid "[opalmembership_history]"
-msgstr ""
-
-#: install.php:149
-msgid "Membership Checkout Failed"
-msgstr ""
-
-#: install.php:150
-msgid "[opalmembership_checkout_failed]"
 msgstr ""
 
 #: install.php:168
@@ -107,22 +99,22 @@ msgstr ""
 msgid "Year"
 msgstr ""
 
-#: inc/class-opalmembership-checkout.php:208
+#: inc/class-opalmembership-checkout.php:216
 msgid ""
 "You have too limited to purchase this package, please try to purchase other."
 msgstr ""
 
-#: inc/class-opalmembership-checkout.php:292
+#: inc/class-opalmembership-checkout.php:300
 msgid "The payment is not complete"
 msgstr ""
 
-#: inc/class-opalmembership-checkout.php:298 inc/gateways/pp_standard.php:229
-#: inc/gateways/cod.php:66 inc/gateways/stripe.php:307
-#: inc/gateways/stripe.php:309
+#: inc/class-opalmembership-checkout.php:306 inc/gateways/pp_standard.php:242
+#: inc/gateways/cod.php:66 inc/gateways/stripe.php:311
+#: inc/gateways/stripe.php:313
 msgid "Payment to be made upon delivery."
 msgstr ""
 
-#: inc/class-opalmembership-user.php:105
+#: inc/class-opalmembership-user.php:118
 msgid "Dashboard"
 msgstr ""
 
@@ -338,39 +330,47 @@ msgstr ""
 msgid "Zaragoza"
 msgstr ""
 
-#: inc/class-opalmembership-form-handler.php:32
-#: inc/class-opalmembership-form-handler.php:37
-#: inc/class-opalmembership-form-handler.php:46
-#: inc/class-opalmembership-form-handler.php:56
-#: inc/class-opalmembership-form-handler.php:123
-#: inc/class-opalmembership-form-handler.php:128
-#: inc/class-opalmembership-form-handler.php:135
-#: inc/class-opalmembership-form-handler.php:142
-#: inc/class-opalmembership-form-handler.php:145
+#: inc/class-opalmembership-form-handler.php:36
+#: inc/class-opalmembership-form-handler.php:41
+#: inc/class-opalmembership-form-handler.php:50
+#: inc/class-opalmembership-form-handler.php:61
+#: inc/class-opalmembership-form-handler.php:131
+#: inc/class-opalmembership-form-handler.php:136
+#: inc/class-opalmembership-form-handler.php:143
+#: inc/class-opalmembership-form-handler.php:150
 #: inc/class-opalmembership-form-handler.php:153
+#: inc/class-opalmembership-form-handler.php:161
 msgid "ERROR"
 msgstr ""
 
-#: inc/class-opalmembership-form-handler.php:37
-#: inc/class-opalmembership-form-handler.php:128
+#: inc/class-opalmembership-form-handler.php:41
+#: inc/class-opalmembership-form-handler.php:136
 msgid "Username is required."
 msgstr ""
 
-#: inc/class-opalmembership-form-handler.php:46
+#: inc/class-opalmembership-form-handler.php:50
 msgid "A user could not be found with this email address."
 msgstr ""
 
-#: inc/class-opalmembership-form-handler.php:56
-#: inc/class-opalmembership-form-handler.php:142
+#: inc/class-opalmembership-form-handler.php:61
+#: inc/class-opalmembership-form-handler.php:150
 msgid "Password is required."
 msgstr ""
 
-#: inc/class-opalmembership-form-handler.php:135
+#: inc/class-opalmembership-form-handler.php:143
 msgid "Email is required."
 msgstr ""
 
-#: inc/class-opalmembership-form-handler.php:145
+#: inc/class-opalmembership-form-handler.php:153
 msgid "Re-Password is not match."
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:220
+msgid "Failed payment."
+msgstr ""
+
+#: inc/class-opalmembership-form-handler.php:242
+msgid "Completed payment."
 msgstr ""
 
 #: inc/class-opalmembership-roles.php:49
@@ -396,203 +396,203 @@ msgstr ""
 msgid "Please enter your coupon to get a discount"
 msgstr ""
 
-#: inc/mixes-functions.php:365
+#: inc/mixes-functions.php:375
 msgid "Undefined Payment"
 msgstr ""
 
-#: inc/mixes-functions.php:376
+#: inc/mixes-functions.php:386
 msgid "US Dollars (&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:377
+#: inc/mixes-functions.php:387
 msgid "Euros (&euro;)"
 msgstr ""
 
-#: inc/mixes-functions.php:378
+#: inc/mixes-functions.php:388
 msgid "Pounds Sterling (&pound;)"
 msgstr ""
 
-#: inc/mixes-functions.php:379
+#: inc/mixes-functions.php:389
 msgid "Australian Dollars (&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:380
+#: inc/mixes-functions.php:390
 msgid "Brazilian Real (R&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:381
+#: inc/mixes-functions.php:391
 msgid "Canadian Dollars (&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:382
+#: inc/mixes-functions.php:392
 msgid "Czech Koruna"
 msgstr ""
 
-#: inc/mixes-functions.php:383
+#: inc/mixes-functions.php:393
 msgid "Danish Krone"
 msgstr ""
 
-#: inc/mixes-functions.php:384
+#: inc/mixes-functions.php:394
 msgid "Hong Kong Dollar (&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:385
+#: inc/mixes-functions.php:395
 msgid "Hungarian Forint"
 msgstr ""
 
-#: inc/mixes-functions.php:386
+#: inc/mixes-functions.php:396
 msgid "Israeli Shekel (&#8362;)"
 msgstr ""
 
-#: inc/mixes-functions.php:387
+#: inc/mixes-functions.php:397
 msgid "Japanese Yen (&yen;)"
 msgstr ""
 
-#: inc/mixes-functions.php:388
+#: inc/mixes-functions.php:398
 msgid "Malaysian Ringgits"
 msgstr ""
 
-#: inc/mixes-functions.php:389
+#: inc/mixes-functions.php:399
 msgid "Mexican Peso (&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:390
+#: inc/mixes-functions.php:400
 msgid "New Zealand Dollar (&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:391
+#: inc/mixes-functions.php:401
 msgid "Norwegian Krone (Kr.)"
 msgstr ""
 
-#: inc/mixes-functions.php:392
+#: inc/mixes-functions.php:402
 msgid "Philippine Pesos"
 msgstr ""
 
-#: inc/mixes-functions.php:393
+#: inc/mixes-functions.php:403
 msgid "Polish Zloty"
 msgstr ""
 
-#: inc/mixes-functions.php:394
+#: inc/mixes-functions.php:404
 msgid "Singapore Dollar (&#36;)"
 msgstr ""
 
-#: inc/mixes-functions.php:395
+#: inc/mixes-functions.php:405
 msgid "Swedish Krona"
 msgstr ""
 
-#: inc/mixes-functions.php:396
+#: inc/mixes-functions.php:406
 msgid "Swiss Franc"
 msgstr ""
 
-#: inc/mixes-functions.php:397
+#: inc/mixes-functions.php:407
 msgid "Taiwan New Dollars"
 msgstr ""
 
-#: inc/mixes-functions.php:398
+#: inc/mixes-functions.php:408
 msgid "Thai Baht (&#3647;)"
 msgstr ""
 
-#: inc/mixes-functions.php:399
+#: inc/mixes-functions.php:409
 msgid "Indian Rupee (&#8377;)"
 msgstr ""
 
-#: inc/mixes-functions.php:400
+#: inc/mixes-functions.php:410
 msgid "Turkish Lira (&#8378;)"
 msgstr ""
 
-#: inc/mixes-functions.php:401
+#: inc/mixes-functions.php:411
 msgid "Iranian Rial (&#65020;)"
 msgstr ""
 
-#: inc/mixes-functions.php:402
+#: inc/mixes-functions.php:412
 msgid "Russian Rubles"
 msgstr ""
 
-#: inc/mixes-functions.php:751
+#: inc/mixes-functions.php:845
 msgid "Select a country&hellip;"
 msgstr ""
 
-#: inc/mixes-functions.php:757
+#: inc/mixes-functions.php:852
 msgid "Update country"
 msgstr ""
 
-#: inc/mixes-functions.php:793
+#: inc/mixes-functions.php:894
 msgid "Select a state&hellip;"
 msgstr ""
 
-#: inc/mixes-functions.php:952
+#: inc/mixes-functions.php:1083
 msgid "System"
 msgstr ""
 
-#: inc/mixes-functions.php:967
+#: inc/mixes-functions.php:1098
 msgid "Delete this payment note"
 msgstr ""
 
-#: inc/mixes-functions.php:967
+#: inc/mixes-functions.php:1099
 #: inc/admin/class-opalmembership-member-table.php:140
 #: inc/admin/class-opalmembership-member-table.php:270
 msgid "Delete"
 msgstr ""
 
-#: inc/mixes-functions.php:984
+#: inc/mixes-functions.php:1116
 msgid "Pending"
 msgstr ""
 
-#: inc/mixes-functions.php:985
+#: inc/mixes-functions.php:1117
 msgid "Processing"
 msgstr ""
 
-#: inc/mixes-functions.php:986
+#: inc/mixes-functions.php:1118
 msgid "On Hold"
 msgstr ""
 
-#: inc/mixes-functions.php:987
+#: inc/mixes-functions.php:1119
 msgid "Failed"
 msgstr ""
 
-#: inc/mixes-functions.php:988
+#: inc/mixes-functions.php:1120
 msgid "Cancelled"
 msgstr ""
 
-#: inc/mixes-functions.php:989
+#: inc/mixes-functions.php:1121
 msgid "Completed"
 msgstr ""
 
-#: inc/mixes-functions.php:990
+#: inc/mixes-functions.php:1122
 msgid "Refunded"
 msgstr ""
 
-#: inc/mixes-functions.php:1052
+#: inc/mixes-functions.php:1184
 msgid "An account is already registered with your email address. Please login."
 msgstr ""
 
-#: inc/mixes-functions.php:1057
+#: inc/mixes-functions.php:1189
 msgid "Please enter a valid account username."
 msgstr ""
 
-#: inc/mixes-functions.php:1061
+#: inc/mixes-functions.php:1193
 msgid "Username is already exists."
 msgstr ""
 
-#: inc/mixes-functions.php:1066
+#: inc/mixes-functions.php:1198
 msgid "Password is requried."
 msgstr ""
 
-#: inc/mixes-functions.php:1135
+#: inc/mixes-functions.php:1271
 msgid ""
 "If you have registed with us before, please enter your details in the boxes "
 "below. If you are a new agent, please proceed to the Billing section."
 msgstr ""
 
-#: inc/class-opalmembership-email.php:145
+#: inc/class-opalmembership-email.php:152
 msgid "Package:"
 msgstr ""
 
-#: inc/class-opalmembership-email.php:146
+#: inc/class-opalmembership-email.php:153
 msgid "Price:"
 msgstr ""
 
-#: inc/class-opalmembership-email.php:147
+#: inc/class-opalmembership-email.php:154
 msgid "Duration:"
 msgstr ""
 
@@ -742,7 +742,7 @@ msgstr ""
 msgid "Please enter your Country"
 msgstr ""
 
-#: inc/core/class-opalmembership-payment.php:211
+#: inc/core/class-opalmembership-payment.php:212
 #: inc/admin/class-admin-posttype.php:127
 msgid "Guest"
 msgstr ""
@@ -1136,7 +1136,7 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: inc/admin/register-settings.php:107 inc/admin/register-settings.php:405
+#: inc/admin/register-settings.php:107 inc/admin/register-settings.php:397
 #: templates/gateways/gateways_form.php:23
 msgid "Payment Gateways"
 msgstr ""
@@ -1145,191 +1145,199 @@ msgstr ""
 msgid "Emails"
 msgstr ""
 
-#: inc/admin/register-settings.php:231 inc/admin/register-settings.php:235
+#: inc/admin/register-settings.php:225 inc/admin/register-settings.php:229
 msgid "General Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:242
+#: inc/admin/register-settings.php:236
 msgid "Grid Column"
 msgstr ""
 
-#: inc/admin/register-settings.php:243
+#: inc/admin/register-settings.php:237
 msgid "Set number of grid column to display list of membership package"
 msgstr ""
 
-#: inc/admin/register-settings.php:251
+#: inc/admin/register-settings.php:245
 msgid ""
 "This is the page show list of packages. The <code>[opalmembership_packages]"
 "</code> shortcode should be on this page."
 msgstr ""
 
-#: inc/admin/register-settings.php:262
+#: inc/admin/register-settings.php:256
 msgid "Dashboard Page"
 msgstr ""
 
-#: inc/admin/register-settings.php:263
+#: inc/admin/register-settings.php:257
 msgid ""
 "This is the page show up account manager. The <code>"
 "[opalmembership_dashboard]</code> shortcode should be on this page."
 msgstr ""
 
-#: inc/admin/register-settings.php:273
+#: inc/admin/register-settings.php:267
 msgid "Register Page"
 msgstr ""
 
-#: inc/admin/register-settings.php:274
+#: inc/admin/register-settings.php:268
 msgid ""
 "This is the page show up register form. The <code>"
 "[opalmembership_register_form]</code> shortcode should be on this page."
 msgstr ""
 
-#: inc/admin/register-settings.php:284
+#: inc/admin/register-settings.php:278
 msgid "Login user after register completed"
 msgstr ""
 
-#: inc/admin/register-settings.php:285
+#: inc/admin/register-settings.php:279
 msgid ""
 "This option will loggin user after they register completed, if it checked."
 msgstr ""
 
-#: inc/admin/register-settings.php:291
+#: inc/admin/register-settings.php:284
 msgid "Login Page"
 msgstr ""
 
-#: inc/admin/register-settings.php:292
+#: inc/admin/register-settings.php:285
 msgid ""
 "This is the page show up login form. The <code>[opalmembership_login_form]"
 "</code> shortcode should be on this page."
 msgstr ""
 
-#: inc/admin/register-settings.php:302
+#: inc/admin/register-settings.php:295
 msgid "Success Page"
 msgstr ""
 
-#: inc/admin/register-settings.php:303
+#: inc/admin/register-settings.php:296
 msgid ""
 "This is the page donators are sent to after completing their donations. The "
 "<code>[opalmembership_receipt]</code> shortcode should be on this page."
 msgstr ""
 
-#: inc/admin/register-settings.php:314
+#: inc/admin/register-settings.php:307
 msgid "CheckOut Page"
 msgstr ""
 
-#: inc/admin/register-settings.php:315
+#: inc/admin/register-settings.php:308
 msgid ""
 "This page shows a complete donation history for the current user. The <code>"
 "[opalmembership_checkout]</code> shortcode should be on this page."
 msgstr ""
 
-#: inc/admin/register-settings.php:325
+#: inc/admin/register-settings.php:318
 msgid "Payment History Page"
 msgstr ""
 
-#: inc/admin/register-settings.php:326
+#: inc/admin/register-settings.php:319
 msgid ""
 "This page shows a complete payments history for the current user. The <code>"
 "[opalmembership_history]</code> shortcode should be on this page."
 msgstr ""
 
-#: inc/admin/register-settings.php:336
+#: inc/admin/register-settings.php:329
 msgid "Enable Guest Checkout"
 msgstr ""
 
-#: inc/admin/register-settings.php:337
+#: inc/admin/register-settings.php:330
 msgid "This option allow guest checkout without login your site."
 msgstr ""
 
-#: inc/admin/register-settings.php:343
+#: inc/admin/register-settings.php:335
 msgid "Base Country"
 msgstr ""
 
-#: inc/admin/register-settings.php:344
+#: inc/admin/register-settings.php:336
 msgid "Where does your site operate from?"
 msgstr ""
 
-#: inc/admin/register-settings.php:351
+#: inc/admin/register-settings.php:343
 msgid "Currency Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:370
+#: inc/admin/register-settings.php:349
+msgid "Currency"
+msgstr ""
+
+#: inc/admin/register-settings.php:357
+msgid "Currency Position"
+msgstr ""
+
+#: inc/admin/register-settings.php:362
 msgid "Before - $10"
 msgstr ""
 
-#: inc/admin/register-settings.php:371
+#: inc/admin/register-settings.php:363
 msgid "After - 10$"
 msgstr ""
 
-#: inc/admin/register-settings.php:376
+#: inc/admin/register-settings.php:368
 msgid "Thousands Separator"
 msgstr ""
 
-#: inc/admin/register-settings.php:377
+#: inc/admin/register-settings.php:369
 msgid "The symbol (typically , or .) to separate thousands"
 msgstr ""
 
-#: inc/admin/register-settings.php:383
+#: inc/admin/register-settings.php:375
 msgid "Decimal Separator"
 msgstr ""
 
-#: inc/admin/register-settings.php:384 inc/admin/register-settings.php:392
+#: inc/admin/register-settings.php:376 inc/admin/register-settings.php:384
 msgid "The symbol (usually , or .) to separate decimal points"
 msgstr ""
 
-#: inc/admin/register-settings.php:391
+#: inc/admin/register-settings.php:383
 msgid "Decimal Numbers"
 msgstr ""
 
-#: inc/admin/register-settings.php:409
+#: inc/admin/register-settings.php:401
 msgid "Gateways Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:415
+#: inc/admin/register-settings.php:407
 msgid "Test Mode"
 msgstr ""
 
-#: inc/admin/register-settings.php:416
+#: inc/admin/register-settings.php:408
 msgid ""
 "While in test mode no live transactions are processed. To fully use test "
 "mode, you must have a sandbox (test) account for the payment gateway you are "
 "testing."
 msgstr ""
 
-#: inc/admin/register-settings.php:422
+#: inc/admin/register-settings.php:413
 msgid "Enabled Gateways"
 msgstr ""
 
-#: inc/admin/register-settings.php:423
+#: inc/admin/register-settings.php:414
 msgid "Choose the payment gateways you would like enabled."
 msgstr ""
 
-#: inc/admin/register-settings.php:429
+#: inc/admin/register-settings.php:419
 msgid "Default Gateway"
 msgstr ""
 
-#: inc/admin/register-settings.php:430
+#: inc/admin/register-settings.php:420
 msgid "This is the gateway that will be selected by default."
 msgstr ""
 
-#: inc/admin/register-settings.php:442 inc/admin/register-settings.php:446
+#: inc/admin/register-settings.php:430 inc/admin/register-settings.php:434
 msgid "Display Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:452
+#: inc/admin/register-settings.php:440
 msgid "Disable CSS"
 msgstr ""
 
-#: inc/admin/register-settings.php:453
+#: inc/admin/register-settings.php:441
 msgid ""
 "Enable this option if you would like to disable all of Opalmembership's "
 "included CSS stylesheets."
 msgstr ""
 
-#: inc/admin/register-settings.php:458
+#: inc/admin/register-settings.php:446
 msgid "Enable Floating Labels"
 msgstr ""
 
-#: inc/admin/register-settings.php:459
+#: inc/admin/register-settings.php:447
 #, php-format
 msgid ""
 "Enable this option if you would like to enable <a href=\"%s\" "
@@ -1338,11 +1346,11 @@ msgid ""
 "to style the floating labels yourself."
 msgstr ""
 
-#: inc/admin/register-settings.php:464
+#: inc/admin/register-settings.php:452
 msgid "Disable Welcome Screen"
 msgstr ""
 
-#: inc/admin/register-settings.php:465
+#: inc/admin/register-settings.php:453
 #, php-format
 msgid ""
 "Enable this option if you would like to disable the Opalmembership Welcome "
@@ -1350,15 +1358,15 @@ msgid ""
 "access the Welcome Screen <a href=\"%s\">here</a> if you want in the future."
 msgstr ""
 
-#: inc/admin/register-settings.php:470
+#: inc/admin/register-settings.php:458
 msgid "Post Types"
 msgstr ""
 
-#: inc/admin/register-settings.php:476
+#: inc/admin/register-settings.php:464
 msgid "Disable Form Single Views"
 msgstr ""
 
-#: inc/admin/register-settings.php:477
+#: inc/admin/register-settings.php:465
 msgid ""
 "By default, all forms have single views enabled which create a specific URL "
 "on your website for that form. This option disables the singular and archive "
@@ -1366,11 +1374,11 @@ msgid ""
 "a shortcode or widget if enabled."
 msgstr ""
 
-#: inc/admin/register-settings.php:482
+#: inc/admin/register-settings.php:470
 msgid "Disable Form Archives"
 msgstr ""
 
-#: inc/admin/register-settings.php:483
+#: inc/admin/register-settings.php:471
 msgid ""
 "Archives pages list all the forms you have created. This option will disable "
 "only the form's archive page(s). The single form's view will remain in place."
@@ -1378,21 +1386,21 @@ msgid ""
 "enabled."
 msgstr ""
 
-#: inc/admin/register-settings.php:488
+#: inc/admin/register-settings.php:476
 msgid "Disable Form Excerpts"
 msgstr ""
 
-#: inc/admin/register-settings.php:489
+#: inc/admin/register-settings.php:477
 msgid ""
 "The excerpt is an optional summary or description of a donation form; in "
 "short, a summary as to why the user should opalmembership."
 msgstr ""
 
-#: inc/admin/register-settings.php:494
+#: inc/admin/register-settings.php:482
 msgid "Disable Form Featured Image"
 msgstr ""
 
-#: inc/admin/register-settings.php:495
+#: inc/admin/register-settings.php:483
 msgid ""
 "The Featured Image is an image that is chosen as the representative image "
 "for donation form. The display of this image is largely up to the theme. If "
@@ -1400,202 +1408,202 @@ msgid ""
 "option."
 msgstr ""
 
-#: inc/admin/register-settings.php:500
+#: inc/admin/register-settings.php:488
 msgid "Disable Single Form Sidebar"
 msgstr ""
 
-#: inc/admin/register-settings.php:501
+#: inc/admin/register-settings.php:489
 msgid ""
 "The sidebar allows you to add additional widget to the Opalmembership single "
 "form view. If you don't plan on using the sidebar you may disable it with "
 "this option."
 msgstr ""
 
-#: inc/admin/register-settings.php:506
+#: inc/admin/register-settings.php:494
 msgid "Taxonomies"
 msgstr ""
 
-#: inc/admin/register-settings.php:512
+#: inc/admin/register-settings.php:500
 msgid "Enable Form Categories"
 msgstr ""
 
-#: inc/admin/register-settings.php:513
+#: inc/admin/register-settings.php:501
 msgid ""
 "Check this option if you would like to categorize your donation forms. This "
 "option enables the form's category taxonomy."
 msgstr ""
 
-#: inc/admin/register-settings.php:518
+#: inc/admin/register-settings.php:506
 msgid "Enable Form Tags"
 msgstr ""
 
-#: inc/admin/register-settings.php:519
+#: inc/admin/register-settings.php:507
 msgid ""
 "Check this option if you would like to tag your donation forms. This option "
 "enables the form's tag taxonomy."
 msgstr ""
 
-#: inc/admin/register-settings.php:532
+#: inc/admin/register-settings.php:520
 msgid "Opalticket Email Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:536
+#: inc/admin/register-settings.php:524
 msgid "Email Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:543
+#: inc/admin/register-settings.php:531
 msgid "From Name"
 msgstr ""
 
-#: inc/admin/register-settings.php:544
+#: inc/admin/register-settings.php:532
 msgid ""
 "The name donation receipts are said to come from. This should probably be "
 "your site or shop name."
 msgstr ""
 
-#: inc/admin/register-settings.php:550
+#: inc/admin/register-settings.php:538
 msgid "From Email"
 msgstr ""
 
-#: inc/admin/register-settings.php:551
+#: inc/admin/register-settings.php:539
 msgid ""
 "Email to send donation receipts from. This will act as the \"from\" and "
 "\"reply-to\" address."
 msgstr ""
 
-#: inc/admin/register-settings.php:557
+#: inc/admin/register-settings.php:545
 msgid "Success Message"
 msgstr ""
 
-#: inc/admin/register-settings.php:559
+#: inc/admin/register-settings.php:547
 msgid "Enter the message to display when a payment request is made."
 msgstr ""
 
-#: inc/admin/register-settings.php:564
+#: inc/admin/register-settings.php:552
 msgid "Email Templates (Template Tags)"
 msgstr ""
 
-#: inc/admin/register-settings.php:570
+#: inc/admin/register-settings.php:558
 msgid "Notification For Membership Expired"
 msgstr ""
 
-#: inc/admin/register-settings.php:578 inc/admin/register-settings.php:604
-#: inc/admin/register-settings.php:632 inc/admin/register-settings.php:658
-#: inc/admin/register-settings.php:684
+#: inc/admin/register-settings.php:566 inc/admin/register-settings.php:592
+#: inc/admin/register-settings.php:620 inc/admin/register-settings.php:646
+#: inc/admin/register-settings.php:672
 msgid "Email Subject"
 msgstr ""
 
-#: inc/admin/register-settings.php:580
+#: inc/admin/register-settings.php:568
 msgid "The email subject for admin notifications."
 msgstr ""
 
-#: inc/admin/register-settings.php:585
+#: inc/admin/register-settings.php:573
 msgid "Your membership is expired"
 msgstr ""
 
-#: inc/admin/register-settings.php:590 inc/admin/register-settings.php:615
-#: inc/admin/register-settings.php:643 inc/admin/register-settings.php:669
-#: inc/admin/register-settings.php:695
+#: inc/admin/register-settings.php:578 inc/admin/register-settings.php:603
+#: inc/admin/register-settings.php:631 inc/admin/register-settings.php:657
+#: inc/admin/register-settings.php:683
 msgid "Email Body"
 msgstr ""
 
-#: inc/admin/register-settings.php:592
+#: inc/admin/register-settings.php:580
 msgid ""
 "Enter the email an admin should receive when an initial payment request is "
 "made."
 msgstr ""
 
-#: inc/admin/register-settings.php:597
+#: inc/admin/register-settings.php:585
 msgid "New Payment - New Membership Purchase"
 msgstr ""
 
-#: inc/admin/register-settings.php:606
+#: inc/admin/register-settings.php:594
 msgid ""
 "The email subject a user should receive when they make an initial booking "
 "request."
 msgstr ""
 
-#: inc/admin/register-settings.php:608 inc/admin/register-settings.php:611
+#: inc/admin/register-settings.php:596 inc/admin/register-settings.php:599
 msgid "New membership package purchased - Payment {payment_number}"
 msgstr ""
 
-#: inc/admin/register-settings.php:617
+#: inc/admin/register-settings.php:605
 msgid ""
 "Enter the email a user should receive when they make an initial payment "
 "request."
 msgstr ""
 
-#: inc/admin/register-settings.php:624
+#: inc/admin/register-settings.php:612
 msgid "Membership Confirmed  - Actived Membership"
 msgstr ""
 
-#: inc/admin/register-settings.php:634 inc/admin/register-settings.php:637
+#: inc/admin/register-settings.php:622 inc/admin/register-settings.php:625
 msgid "Your Payment - ID {payment_number} is Confirmed"
 msgstr ""
 
-#: inc/admin/register-settings.php:635
+#: inc/admin/register-settings.php:623
 msgid ""
 "The email subject a user should receive when their booking has been "
 "confirmed."
 msgstr ""
 
-#: inc/admin/register-settings.php:645
+#: inc/admin/register-settings.php:633
 msgid ""
 "Enter the email a user should receive when their booking has been confirmed."
 msgstr ""
 
-#: inc/admin/register-settings.php:650
+#: inc/admin/register-settings.php:638
 msgid "Membership canceled"
 msgstr ""
 
-#: inc/admin/register-settings.php:660 inc/admin/register-settings.php:686
+#: inc/admin/register-settings.php:648 inc/admin/register-settings.php:674
 msgid ""
 "The email subject a user should receive when their booking has been rejected."
 msgstr ""
 
-#: inc/admin/register-settings.php:665
+#: inc/admin/register-settings.php:653
 msgid "Membership Cancelled on {site_name}"
 msgstr ""
 
-#: inc/admin/register-settings.php:671
+#: inc/admin/register-settings.php:659
 msgid ""
 "Enter the email a user should receive when their booking has been rejected."
 msgstr ""
 
-#: inc/admin/register-settings.php:676
+#: inc/admin/register-settings.php:664
 msgid "Membership Refunded"
 msgstr ""
 
-#: inc/admin/register-settings.php:691
+#: inc/admin/register-settings.php:679
 msgid "Membership Refunded on {site_name}"
 msgstr ""
 
-#: inc/admin/register-settings.php:697
+#: inc/admin/register-settings.php:685
 msgid ""
 "Enter the email a user should receive when their booking has been refunded."
 msgstr ""
 
-#: inc/admin/register-settings.php:706
+#: inc/admin/register-settings.php:694
 msgid "Opalmembership Add-ons Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:713
+#: inc/admin/register-settings.php:701
 msgid "Opalmembership Licenses"
 msgstr ""
 
-#: inc/admin/register-settings.php:721
+#: inc/admin/register-settings.php:709
 msgid "Advanced Options"
 msgstr ""
 
-#: inc/admin/register-settings.php:725
+#: inc/admin/register-settings.php:713
 msgid "Session Control"
 msgstr ""
 
-#: inc/admin/register-settings.php:732
+#: inc/admin/register-settings.php:720
 msgid "Session Lifetime"
 msgstr ""
 
-#: inc/admin/register-settings.php:733
+#: inc/admin/register-settings.php:721
 msgid ""
 "Opalmembership will start a new session per user once they have donated. "
 "This option controls the lifetime a user's session is kept alive. An active "
@@ -1603,45 +1611,45 @@ msgid ""
 "to be logged in."
 msgstr ""
 
-#: inc/admin/register-settings.php:736
+#: inc/admin/register-settings.php:724
 msgid "24 Hours"
 msgstr ""
 
-#: inc/admin/register-settings.php:737
+#: inc/admin/register-settings.php:725
 msgid "48 Hours"
 msgstr ""
 
-#: inc/admin/register-settings.php:738
+#: inc/admin/register-settings.php:726
 msgid "72 Hours"
 msgstr ""
 
-#: inc/admin/register-settings.php:739
+#: inc/admin/register-settings.php:727
 msgid "1 Week"
 msgstr ""
 
-#: inc/admin/register-settings.php:743
+#: inc/admin/register-settings.php:731
 msgid "Data Control"
 msgstr ""
 
-#: inc/admin/register-settings.php:749
+#: inc/admin/register-settings.php:737
 msgid "Remove All Data on Uninstall?"
 msgstr ""
 
-#: inc/admin/register-settings.php:750
+#: inc/admin/register-settings.php:738
 msgid ""
 "Check this box if you would like Opalmembership to completely remove all of "
 "its data when the plugin is deleted."
 msgstr ""
 
-#: inc/admin/register-settings.php:755
+#: inc/admin/register-settings.php:743
 msgid "Filter Control"
 msgstr ""
 
-#: inc/admin/register-settings.php:761
+#: inc/admin/register-settings.php:749
 msgid "Disable <code>the_content</code> filter"
 msgstr ""
 
-#: inc/admin/register-settings.php:762
+#: inc/admin/register-settings.php:750
 #, php-format
 msgid ""
 "If you are seeing extra social buttons, related posts, or other unwanted "
@@ -1650,51 +1658,51 @@ msgid ""
 "filter."
 msgstr ""
 
-#: inc/admin/register-settings.php:767
+#: inc/admin/register-settings.php:755
 msgid "Script Loading"
 msgstr ""
 
-#: inc/admin/register-settings.php:773
+#: inc/admin/register-settings.php:761
 msgid "Load Scripts in Footer?"
 msgstr ""
 
-#: inc/admin/register-settings.php:774
+#: inc/admin/register-settings.php:762
 msgid ""
 "Check this box if you would like Opalmembership to load all frontend "
 "JavaScript files in the footer."
 msgstr ""
 
-#: inc/admin/register-settings.php:784 inc/admin/register-settings.php:790
+#: inc/admin/register-settings.php:772 inc/admin/register-settings.php:778
 msgid "API"
 msgstr ""
 
-#: inc/admin/register-settings.php:799 inc/admin/register-settings.php:804
+#: inc/admin/register-settings.php:787 inc/admin/register-settings.php:792
 msgid "System Info"
 msgstr ""
 
-#: inc/admin/register-settings.php:805
+#: inc/admin/register-settings.php:793
 msgid ""
 "Please copy and paste this information in your ticket when contacting "
 "support."
 msgstr ""
 
-#: inc/admin/register-settings.php:841
+#: inc/admin/register-settings.php:829
 msgid "Settings updated."
 msgstr ""
 
-#: inc/admin/register-settings.php:1054
+#: inc/admin/register-settings.php:1042
 msgid "Global Default"
 msgstr ""
 
-#: inc/admin/register-settings.php:1144
+#: inc/admin/register-settings.php:1132
 msgid "Save Settings"
 msgstr ""
 
-#: inc/admin/register-settings.php:1182
+#: inc/admin/register-settings.php:1170
 msgid "Deactivate License"
 msgstr ""
 
-#: inc/admin/register-settings.php:1219
+#: inc/admin/register-settings.php:1207
 #, php-format
 msgid ""
 "API keys allow users to use the <a href=\"%s\">Opalmembership REST API</a> "
@@ -1860,7 +1868,7 @@ msgstr ""
 msgid "%s Actions"
 msgstr ""
 
-#: inc/gateways/pp_standard.php:66
+#: inc/gateways/pp_standard.php:66 inc/gateways/pp_standard.php:103
 msgid "PayPal Standard"
 msgstr ""
 
@@ -1868,10 +1876,6 @@ msgstr ""
 msgid ""
 "Pay via PayPal; you can pay with your credit card if you don’t have a PayPal "
 "account."
-msgstr ""
-
-#: inc/gateways/pp_standard.php:103
-msgid "PayPal Standard"
 msgstr ""
 
 #: inc/gateways/pp_standard.php:110
@@ -1948,7 +1952,7 @@ msgid "Card Number"
 msgstr ""
 
 #: inc/gateways/stripe.php:153
-msgid "Expires (MM/YY)"
+msgid "Expires (MM/YYYY)"
 msgstr ""
 
 #: inc/gateways/stripe.php:161
@@ -1983,19 +1987,19 @@ msgstr ""
 msgid "Invalid Secret, Publish Stripe key."
 msgstr ""
 
-#: inc/gateways/stripe.php:253
+#: inc/gateways/stripe.php:254
 msgid "Credit Card details is empty."
 msgstr ""
 
-#: inc/gateways/stripe.php:269
+#: inc/gateways/stripe.php:271
 msgid "Stripe counld not create tooken for your Credit Card Information."
 msgstr ""
 
-#: inc/gateways/stripe.php:300
+#: inc/gateways/stripe.php:304
 msgid "Payment ID "
 msgstr ""
 
-#: inc/gateways/stripe.php:344
+#: inc/gateways/stripe.php:351
 msgid "OOP. Process Error"
 msgstr ""
 
@@ -2121,45 +2125,37 @@ msgstr ""
 msgid "Complete Now"
 msgstr ""
 
-#: templates/checkout/thankyou.php:23
+#: templates/checkout/thankyou.php:28
 msgid ""
 "Unfortunately your payment cannot be processed as the originating "
 "bank/merchant has declined your transaction."
 msgstr ""
 
-#: templates/checkout/thankyou.php:27
+#: templates/checkout/thankyou.php:33
 msgid "Please attempt your purchase again or go to your account page."
 msgstr ""
 
-#: templates/checkout/thankyou.php:29
+#: templates/checkout/thankyou.php:35
 msgid "Please attempt your purchase again."
 msgstr ""
 
-#: templates/checkout/thankyou.php:33
-msgid "Pay"
-msgstr ""
-
-#: templates/checkout/thankyou.php:35
-msgid "My Account"
-msgstr ""
-
-#: templates/checkout/thankyou.php:41 templates/checkout/thankyou.php:72
+#: templates/checkout/thankyou.php:44 templates/checkout/thankyou.php:76
 msgid "Thank you. Your payment has been received."
 msgstr ""
 
-#: templates/checkout/thankyou.php:45
+#: templates/checkout/thankyou.php:48
 msgid "Payment Number:"
 msgstr ""
 
-#: templates/checkout/thankyou.php:49
+#: templates/checkout/thankyou.php:52
 msgid "Date:"
 msgstr ""
 
-#: templates/checkout/thankyou.php:53
+#: templates/checkout/thankyou.php:56
 msgid "Total:"
 msgstr ""
 
-#: templates/checkout/thankyou.php:58
+#: templates/checkout/thankyou.php:61
 msgid "Payment Method:"
 msgstr ""
 
@@ -2207,7 +2203,7 @@ msgid "You must be logged in before."
 msgstr ""
 
 #: templates/account/membership-warning.php:4
-msgid "Your membership package is expired please upgrade now"
+msgid "Your membership package is expired please upgrade now."
 msgstr ""
 
 #: templates/account/register-form.php:22 templates/account/login-form.php:7
@@ -2381,40 +2377,40 @@ msgstr ""
 msgid "Save/update the %s"
 msgstr ""
 
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:129
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:131
 #, php-format
 msgid "Validation error: PayPal currencies do not match (code %s)."
 msgstr ""
 
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:140
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:142
 #, php-format
 msgid "Validation error: PayPal amounts do not match (gross %s)."
 msgstr ""
 
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:151
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:153
 #, php-format
 msgid ""
 "Validation error: PayPal IPN response from a different email address (%s)."
 msgstr ""
 
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:156
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:159
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:158
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:161
 msgid "IPN payment completed"
 msgstr ""
 
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:162
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:164
 #, php-format
 msgid "PayPal Transaction ID: %s"
 msgstr ""
 
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:165
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:167
 #, php-format
 msgid "Payment pending: %s"
 msgstr ""
 
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:178
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:186
-#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:199
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:180
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:188
+#: inc/gateways/response/class-opalmembership-pp-standard-ipn.php:201
 #, php-format
 msgid "Payment %s via IPN."
 msgstr ""

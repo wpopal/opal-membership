@@ -36,12 +36,7 @@ if ( $payment ) : ?>
 			}
 			?></p>
 
-        <p>
-            <a href="<?php echo esc_url( $payment->get_checkout_payment_url() ); ?>" class="button pay"><?php esc_html_e( 'Pay', 'opalmembership' ) ?></a>
-			<?php if ( is_user_logged_in() ) : ?>
-                <a href="<?php echo esc_url( wc_get_page_permalink( 'myaccount' ) ); ?>" class="button pay"><?php esc_html_e( 'My Account', 'opalmembership' ); ?></a>
-			<?php endif; ?>
-        </p>
+        <?php do_action( 'opalmembership_thankyou_failed_status', $payment->id ); ?>
 
 	<?php else : ?>
 

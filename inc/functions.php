@@ -101,3 +101,80 @@ function opalmembership_is_limit_purchased() {
 
 	return false;
 }
+
+/**
+ * Checks if a user has a certain capability.
+ *
+ * @param array $allcaps All capabilities.
+ * @param array $caps    Capabilities.
+ * @param array $args    Arguments.
+ *
+ * @return array The filtered array of all capabilities.
+ */
+function opalmembership_customer_has_capability( $allcaps, $caps, $args ) {
+	if ( isset( $caps[0] ) ) {
+		switch ( $caps[0] ) {
+			case 'opalmembership_view_payment':
+				$user_id = intval( $args[1] );
+				$payment   = opalmembership_payment( $args[2] );
+
+				if ( $payment && $user_id === $payment->get_user_id() ) {
+					$allcaps['opalmembership_view_payment'] = true;
+				}
+				break;
+			case 'opalmembership_pay_for_payment':
+				$user_id  = intval( $args[1] );
+				$payment_id = isset( $args[2] ) ? $args[2] : null;
+
+				// When no order ID, we assume it's a new order
+				// and thus, customer can pay for it.
+				if ( ! $payment_id ) {
+					$allcaps['opalmembership_pay_for_payment'] = true;
+					break;
+				}
+
+				$payment = opalmembership_payment( $payment_id );
+
+				if ( $payment && ( $user_id === $payment->get_user_id() || ! $payment->get_user_id() ) ) {
+					$allcaps['opalmembership_pay_for_payment'] = true;
+				}
+				break;
+			case 'opalmembership_payment_again':
+				$user_id = intval( $args[1] );
+				$payment   = opalmembership_payment( $args[2] );
+
+				if ( $payment && $user_id === $payment->get_user_id() ) {
+					$allcaps['opalmembership_payment_again'] = true;
+				}
+				break;
+			case 'opalmembership_cancel_payment':
+				$user_id = intval( $args[1] );
+				$payment   = opalmembership_payment( $args[2] );
+
+				if ( $payment && $user_id === $payment->get_user_id() ) {
+					$allcaps['opalmembership_cancel_payment'] = true;
+				}
+				break;
+		}
+	}
+	return $allcaps;
+}
+add_filter( 'user_has_cap', 'opalmembership_customer_has_capability', 10, 3 );
+
+if ( ! function_exists( 'opalmembership_write_log' ) ) {
+
+	/**
+	 * Write log.
+	 *
+	 * @param $log
+	 */
+	function opalmembership_write_log( $log ) {
+		if ( true === WP_DEBUG ) {
+			if ( is_array( $log ) || is_object( $log ) ) {
+				error_log( print_r( $log, true ) );
+			} else {
+				error_log( $log );
+			}
+		}
+	}
+}

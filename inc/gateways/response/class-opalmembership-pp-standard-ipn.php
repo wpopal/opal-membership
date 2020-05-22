@@ -40,7 +40,9 @@ class Opalmembership_Gateway_Pp_standard_INP {
 
 		add_action( 'opalmembership_legacy_paypal_ipn', array( $this, 'check_ipn_response' ) );
 		add_action( 'opalmembership_valid_paypal_standard_ipn_request', array( $this, 'callback') );
-		$this->listen_for_paypal_ipn();
+		// $this->listen_for_paypal_ipn();
+
+		add_action( 'init', array( $this, 'listen_for_paypal_ipn' ) );
 	}
 
 	/**
@@ -241,7 +243,6 @@ class Opalmembership_Gateway_Pp_standard_INP {
 	 *
 	 */
 	public function valid_ipn_response( $ipn_response ){
-
 	//	if ( $this->debug ) {
 			$this->log->add( 'paypal', 'Checking IPN response is valid via ' . $this->paypal_uri. '...' );
 		//}

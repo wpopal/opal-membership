@@ -139,7 +139,16 @@ class Opalmembership_Gateway_Pp_standard extends Opalmembership_Abstract_Gateway
 		$return_url = add_query_arg( [
 			'payment_confirmation' => 'paypal',
 			'payment_id'           => $payment,
+			'status'               => 'completed',
+			'_wpnonce'             => wp_create_nonce( 'opalmemebership-payment-completed' ),
+		], get_permalink( $opalmembership_options['success_page'] ) );
 
+		// Get the failed url
+		$cancel_return = add_query_arg( [
+			'payment_confirmation' => 'paypal',
+			'payment_id'           => $payment,
+			'status'               => 'failed',
+			'_wpnonce'             => wp_create_nonce( 'opalmemebership-payment-failed' ),
 		], get_permalink( $opalmembership_options['success_page'] ) );
 
 		$paypal_redirect = trailingslashit( apply_filters( 'opalmembership_pp_standard_uri', $this->paypal_uri ) ) . '?';
@@ -162,9 +171,9 @@ class Opalmembership_Gateway_Pp_standard extends Opalmembership_Abstract_Gateway
 			'charset'       => get_bloginfo( 'charset' ),
 			'custom'        => $payment,
 			'rm'            => is_ssl() ? 2 : 1,
-			'return'        => ( $return_url ),
-			'cancel_return' => ( opalmembership_get_failed_transaction_uri( 'payment_id=' . $payment ) ),
-			'notify_url'    => ( $listener_url ),
+			'return'        => $return_url,
+			'cancel_return' => $cancel_return,
+			'notify_url'    => $listener_url,
 			'page_style'    => opalmembership_options( 'paypal_page_style' ),
 			'cbt'           => get_bloginfo( 'name' ),
 			'bn'            => 'OpalMembership_Cart',
@@ -193,6 +202,10 @@ class Opalmembership_Gateway_Pp_standard extends Opalmembership_Abstract_Gateway
 		$paypal_args     = apply_filters( 'opalmembership_pp_standard_redirect_args', $paypal_args, $payment_data );
 		$paypal_redirect .= http_build_query( $paypal_args, '', '&' );
 		$paypal_redirect = str_replace( '&amp;', '&', $paypal_redirect );
+
+		OpalMembership()->session()->set( 'opalmembership_confirmed_payment_id', $payment );
+		OpalMembership()->clear_payment_session();
+		OpalMembership()->clear_cart_session();
 
 		wp_redirect( $paypal_redirect );
 		exit();
