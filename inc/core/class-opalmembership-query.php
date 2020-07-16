@@ -23,6 +23,9 @@ class Opalmembership_Query {
 			'post_type'      => 'membership_packages',
 			'posts_per_page' => $per_page,
 			'paged'          => $paged,
+			'order'          => 'ASC',
+			'orderby'        => 'meta_value_num',
+			'meta_key'       => OPALMEMBERSHIP_PACKAGES_PREFIX . 'price',
 		];
 
 		$query = new WP_Query( $args );
@@ -61,7 +64,6 @@ class Opalmembership_Query {
 	 * get List Payment By User
 	 */
 	public static function get_payments_by_user( $user_id, $per_page = 10, $paged = -1 ) {
-
 		$args = [
 			'post_type'      => 'membership_payments',
 			'posts_per_page' => $per_page,
