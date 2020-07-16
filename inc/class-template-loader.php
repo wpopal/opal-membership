@@ -68,7 +68,6 @@ class Opalmembership_Template_Loader {
 	 * @param $name
 	 * @param $plugin_dir
 	 * @return string
-	 * @throws Exception
 	 */
 	public static function locate( $name, $plugin_dir = OPALMEMBERSHIP_PLUGIN_DIR ) {
 		$template = '';
@@ -108,7 +107,6 @@ class Opalmembership_Template_Loader {
 	 * @param array  $args
 	 * @param string $plugin_dir
 	 * @return string
-	 * @throws Exception
 	 */
 	public static function get_template_part( $name, $args = array(), $plugin_dir = '' ) {
 		if ( is_array( $args ) && count( $args ) > 0 ) {

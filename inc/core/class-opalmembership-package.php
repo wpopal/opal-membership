@@ -137,7 +137,7 @@ class Opalmembership_Package {
 	 * Retrieve the variable prices
 	 *
 	 * @since 1.0
-	 * @return array
+	 * @return string
 	 */
 	public function get_price_html() {
 

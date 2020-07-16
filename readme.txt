@@ -4,7 +4,7 @@ Donate link: http://www.wpopal.com/
 Tags:  community, member, opalestate_addon, profile, ecommerce, subscription, membership, user
 Requires at least: 5.0
 Tested up to: 5.3.2
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -63,15 +63,17 @@ There are plenty of WordPress Membership Plugins  but not all of them have the s
 
 * It supports many payment gates for users buying membership such as Card On Delivery, PayPay Standard, Stripe.
  
-= Support Multi Language: =
+= Support multilingual: =
 
 * Custom labels for everything and full translation support. You can translate into the language you love. Easy – Quick – Exact.
  
 
 
-= WHAT THEME USING THIS PLUGINS = 
+= Which themes use this plugin? =
 
- 1. *[ Opal Fullhouse - Estate WordPress Theme](http://goo.gl/8I4FFg "Opal Fullhouse - Estate WordPress Theme")*
+ 1. *[ Housey - Real Estate WordPress Theme](http://bit.ly/2kw4MK8 "Housey - Real Estate WordPress Theme")*
+ 2. *[ Latehome - Real Estate WordPress Theme](http://bit.ly/2p5HUn2 "Latehome - Real Estate WordPress Theme")*
+ 3. *[ Latehome Free - Real Estate Free WordPress Theme](http://demo2.themelexus.com/latehome_free/ "Latehome Free - Real Estate Free WordPress Theme"). You can download free [here](http://bit.ly/latehomefree "Latehome Free download").*
 
  * Please keep contact us at help@wpopal.com to send us your website, we will publish it our showcase
 
@@ -87,8 +89,5 @@ This section describes how to install the plugin and get it working.
 
 == Frequently Asked Questions == 
 
-* Detailed guide to install and customize: [documentation](http://www.wpopal.com/guides/plugin/opalmembership/ "Visit the Plugin docs") 
-* Video guide and tutorials how to set up
-* Images and refer links
-* Easy for user to follow up
-* System tickets support 24/7 available : [free support](https://wpopal.ticksy.com/ "Visit the Plugin support Page")
+* Detailed guide to install and customize: [documentation](https://wpopal-2.gitbook.io/opal-membership/ "Visit the Plugin docs")
+* System tickets support 24/7 available : [free support](https://themelexus.ticksy.com/ "Visit the Plugin support Page")

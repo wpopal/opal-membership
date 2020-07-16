@@ -2,10 +2,13 @@
 global $post;
 
 $membership = new Opalmembership_Package( $post->ID );
-$style = '';
+$style      = '';
 if ( has_post_thumbnail() ) {
-    $style .= 'style="background-image:url(' . get_the_post_thumbnail_url() . ');"';
+	$style .= 'style="background-image:url(' . get_the_post_thumbnail_url() . ');"';
 }
+
+$button_text = $membership->get_post_meta( 'button_text' );
+$button_text = $button_text ? $button_text : esc_html__( 'Buy Now', 'opalmembership' );
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <div class="package-inner<?php if ( $membership->is_hightlighted() ): ?> package-hightlighted<?php endif; ?>">
@@ -46,9 +49,13 @@ if ( has_post_thumbnail() ) {
                 </div>
             </div>
             <div class="pricing-footer">
-				<?php echo Opalmembership_Template_Loader::get_template_part( 'single-package-purchase-form', [ 'highlighted' => $membership->is_hightlighted() ] ); ?>
+				<?php
+				echo Opalmembership_Template_Loader::get_template_part( 'single-package-purchase-form', [
+					'highlighted' => $membership->is_hightlighted(),
+					'button_text' => $button_text,
+				] );
+				?>
             </div>
         </div>
     </div>
-    <!-- pricing -->
 </article>
