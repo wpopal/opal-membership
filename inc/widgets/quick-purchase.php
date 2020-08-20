@@ -60,7 +60,7 @@ class Opalmembership_Quick_Purchase extends WP_Widget {
                     <?php else : ?>
                     <div class="alert alert-warning">
                         <p><?php esc_html_e( 'You have not purchased any package now.', 'opalmembership' ); ?></p>
-                        <p><a href="<?php echo opalmembership_get_membership_page_uri();?>"><?php esc_html_e( 'Click to this link to see plans', 'opalmembership' );?></a></p>
+                        <p><a href="<?php echo opalmembership_get_membership_page_uri();?>"><?php esc_html_e( 'Click this link to see plans', 'opalmembership' );?></a></p>
                     </div>
                 <?php endif; ?>
             </div>
